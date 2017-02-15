@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PhieuXuatKho" nillable="true" type="PhieuXuatKho"/>
+  <xs:complexType name="PhieuXuatKho">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="1" name="store_name" type="xs:int"/>
+      <xs:element maxOccurs="1" minOccurs="1" name="store_address" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="ngay" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="1" name="employee_name" type="xs:string"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="PhieuXuatKho1" nillable="true" type="PhieuXuatKho1"/>
+  <xs:complexType name="PhieuXuatKho1">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="1" name="Stt" type="xs:int"/>
+      <xs:element maxOccurs="1" minOccurs="1" name="DonHang" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="MaKH" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="TenKH" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="NgayDat" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="ThanhTien" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="CKKH" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="CKPT" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="CKGT" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="PhaiThu" type="xs:decimal"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="PhieuXuatKho2" nillable="true" type="PhieuXuatKho2"/>
+  <xs:complexType name="PhieuXuatKho2">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="1" name="Stt" type="xs:int"/>
+      <xs:element maxOccurs="1" minOccurs="1" name="MaHang" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="TenHang" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="Thung" type="xs:int"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="Le" type="xs:int"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="GTThung" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="GTLe" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="ThanhTien" type="xs:decimal"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="saleout_type" type="xs:string"/>
+
+
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

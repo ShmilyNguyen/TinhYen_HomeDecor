@@ -1,0 +1,9 @@
+12/20/2016 09:59:31 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - -::1-/Login.aspx-Login failed for user 'sa'.
+12/20/2016 10:00:10 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - -::1-/Login.aspx-Login failed for user 'sa'.
+12/20/2016 10:01:38 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - -::1-/Login.aspx-Login failed for user 'sa'.
+12/20/2016 10:03:12 [6] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - 127.0.0.1 : /Login.aspx
+12/20/2016 10:03:12 [6] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-127.0.0.1-/Login.aspx-Login
+12/20/2016 10:03:12 [6] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-127.0.0.1-/Login.aspx-Thread was being aborted.
+12/20/2016 10:05:01 [13] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - 127.0.0.1 : /Login.aspx
+12/20/2016 10:05:01 [13] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-127.0.0.1-/Login.aspx-Login
+12/20/2016 10:05:01 [13] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-127.0.0.1-/Login.aspx-Thread was being aborted.

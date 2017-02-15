@@ -1,0 +1,12 @@
+11/06/2016 22:19:00 [8] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppquynhon - ::1 : /Login.aspx
+11/06/2016 22:19:00 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Login
+11/06/2016 22:19:00 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Thread was being aborted.
+11/06/2016 22:36:44 [8] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppquynhon - ::1 : /Login.aspx
+11/06/2016 22:36:45 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Login
+11/06/2016 22:36:45 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Thread was being aborted.
+11/06/2016 22:45:31 [7] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppquynhon - ::1 : /Login.aspx
+11/06/2016 22:45:31 [7] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Login
+11/06/2016 22:45:31 [7] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Thread was being aborted.
+11/06/2016 23:00:59 [13] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppquynhon - ::1 : /Login.aspx
+11/06/2016 23:00:59 [13] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Login
+11/06/2016 23:00:59 [13] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppquynhon-::1-/Login.aspx-Thread was being aborted.

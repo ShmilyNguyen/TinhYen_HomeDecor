@@ -1,0 +1,72 @@
+diff a/Forms/saleout-edit-2.aspx.cs b/Forms/saleout-edit-2.aspx.cs	(rejected hunks)
+@@ -77,7 +77,7 @@
+             }
+             catch (Exception ex)
+             {
+-                throw;
++               
+             }
+         }
+ 
+@@ -368,6 +368,11 @@
+                     cbxHangHoa.DataSource = data;
+                     cbxHangHoa.DataBind();
+                     cbxHangHoa.Items.Insert(0, new RadComboBoxItem(null, null));
++                    cbxHangHoa.SelectedIndex = 0;
++
++
++                    cbxHangHoa.Text = null;
++                    cbxHangHoa.ClearSelection();
+                 }
+             }
+             catch (Exception ex)
+@@ -805,6 +810,8 @@
+                         TinhToanKM_Ontop();
+                     }
+                 }
++
++                
+             }
+             catch (Exception ex)
+             {
+@@ -822,6 +829,8 @@
+             txtQty.Text = "";
+             cbxLoaiXuat.Focus();
+ 
++
++            Load_Item_List();
+             
+         }
+ 
+@@ -1515,5 +1524,30 @@
+         {
+             Load_Item_List();
+         }
++
++        protected void btnInPhieuGiaoHang_Click(object sender, EventArgs e)
++        {
++            try
++            {
++                decimal _totalThanhTien = 0;
++                decimal _totalChietKhau = 0;
++                decimal _totalThanhTienSauCKRow = 0;
++                decimal _totalGTCKDH = 0;
++                decimal _totalPhaiThu = 0;
++                string _SoTienBangChu = "";
++
++                _totalChietKhau = decimal.Parse(txtGTCK.Text);
++                _totalGTCKDH = decimal.Parse(txtTotalOntopDiscount.Text);
++                _totalPhaiThu = decimal.Parse(txtGTThanhToan.Text);
++                _SoTienBangChu = clsCommon.DoiSoThanhChu1(_totalPhaiThu);
++
++                string _url = "PrintPreview-PhieuGiaoHang.aspx?p0={0}&&p1={1}&&p2={2}&&p3={3}&&p4={4}";
++                _url = string.Format(_url, "saleout", hdf_SaleOut_ID.Value, _totalChietKhau, _totalGTCKDH, _totalPhaiThu);
++                Response.Redirect(_url);
++            }
++            catch (Exception ex)
++            {
++            }
++        }
+     }
+ }
+\ No newline at end of file

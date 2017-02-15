@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="DonHangTongTheoNgay" nillable="true" type="DonHangTongTheoNgay" />
+	<xs:complexType name="DonHangTongTheoNgay">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="fldName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldAddress" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldTuNgay" type="xs:dateTime" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldDenNgay" type="xs:dateTime" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMST" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldPhone" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldHoTenNhanVien" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMaHangHoa" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldTenHangHoa" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldSoLuong" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldSoLuongKM" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldChietKhau" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldGiaTriCanThu" type="xs:decimal" />
+
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Customer">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="CustomerId" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Birthday" type="xs:dateTime" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Telephone" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfOrderDetail">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="OrderDetail" nillable="true" type="OrderDetail" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OrderDetail">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="OrderDetailId" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Category" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:decimal" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+
+</xs:schema>

@@ -1,0 +1,3 @@
+11/21/2016 08:11:47 [9] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin-mientrung - ::1 : /Login.aspx
+11/21/2016 08:11:47 [9] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-mientrung-::1-/Login.aspx-Login
+11/21/2016 08:11:47 [9] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-mientrung-::1-/Login.aspx-Thread was being aborted.

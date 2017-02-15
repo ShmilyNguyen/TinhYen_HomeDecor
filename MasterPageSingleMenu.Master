@@ -1,0 +1,292 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageSingleMenu.master.cs"
+    Inherits="WKS.DMS.WEB.MasterPageSingleMenu" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxMenu" TagPrefix="dx" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <%--    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%--<link href="styles/base.css" rel="stylesheet" />--%>
+       
+
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+        </telerik:RadScriptManager>
+        <div id="wrapper">
+            <a href="#" class="logo" style="display: none">
+                <img src="../images/logo.png" alt="site logo" />
+            </a>
+            <div class="header" style="background-color: #d60000">
+
+                <div>
+
+                    <dx:ASPxMenu ID="ASPxMenu1" runat="server" AutoSeparators="RootOnly" CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css" CssPostfix="Office2010Blue" ShowPopOutImages="True" SpriteCssFilePath="~/App_Themes/Office2010Blue/{0}/sprite.css">
+                        <Items>
+                            <dx:MenuItem Text="Trang chủ" NavigateUrl="~">
+                            </dx:MenuItem>
+
+                            <dx:MenuItem Text="Quản trị" Name="menu_system">
+                                <Items>
+
+                                    <dx:MenuItem Text="Tham số hệ thống" NavigateUrl="~/Forms/Sys/sys-config.aspx" Visible="false">
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem Text="Phân quyền User - Store" NavigateUrl="~/Forms/Admin/sys-account-store.aspx">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Phân quyền User - Giá thành" NavigateUrl="~/Forms/Admin/sys-user-price.aspx">
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem Text="Import Data">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-ChiTieuDoanhSoKhachHang.aspx" Text="Chỉ tiêu doanh số khách hàng">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-ImportTuyenBanHang.aspx" Text="Tuyến bán hàng">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-ImportPhanBoCTKM.aspx" Text="Phân bổ CTKM">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Forms/Custom_Import/import_rawdata.aspx" Text="Dữ liệu bán hàng ngoài hệ thống">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Forms/Custom_Import/import_khachhang.aspx" Text="Danh sách khách hàng ngoài hệ thống">
+                                            </dx:MenuItem>
+                                        </Items>
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem NavigateUrl="~/Forms/inventory-unlock.aspx" Text="Đóng/Mở chốt tồn kho cho NPP">
+                                    </dx:MenuItem>
+
+
+                                    <dx:MenuItem NavigateUrl="~/Forms/Sys/sys-closingdays.aspx" Text="Định nghĩa ngày mở chốt kho">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Sys/sys-closingdays-extra.aspx" Text="Định nghĩa ngày mở chốt kho mở rộng">
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/change-route.aspx" Text="Chuyển khách hàng giữa các NPP" >
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem NavigateUrl="~/Forms/Custom_Import/import-mcp.aspx" Text="Import MCP cho NPP mới" Visible="false">
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem NavigateUrl="~/CMS/cms-list.aspx" Text="Đăng thông báo">
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem Name="menu_tondau" NavigateUrl="~/Forms/TonDauKy-List.aspx" Text="Quản lý tồn đầu">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Name="menu_danhmuc" Text="Danh mục">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Category-List.aspx" Text="Phân loại">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/HangHoa-List.aspx" Text="Hàng hóa">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/price-group-list.aspx" Text="Giá thành">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Store-List.aspx" Text="Nhà phân phối">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/Employee-List.aspx" Text="Nhân viên">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/HR-List.aspx" Text="Nhân viên HR" Visible="false">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/customer-channel-list.aspx" Text="Phân loại khách hàng">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/region.aspx" Text="Phân loại Vùng - Miền">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/area.aspx" Text="Phân loại Khu vực">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/user_region.aspx" Text="Npp Theo vùng">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Name="menu_danhmuc2" Text="Danh mục" Visible="false">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/Employee-List.aspx" Text="Nhân viên">
+                                    </dx:MenuItem>
+                                </Items>
+
+                            </dx:MenuItem>
+                             <dx:MenuItem Name="menu_danhmuc_region" Text="Danh mục" Visible="false">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/Employee-List.aspx" Text="Nhân viên">
+                                    </dx:MenuItem>
+                                </Items>
+                                  <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/user_region.aspx" Text="Npp Theo vùng">
+                                    </dx:MenuItem>
+                                </Items>
+                                  <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Route/HR-List.aspx" Text="Nhân viên HR" Visible="false">
+                                    </dx:MenuItem>
+                                </Items>
+
+                            </dx:MenuItem>
+                            <dx:MenuItem Name="menu_danhmuc_mt" Text="Danh mục" Visible="false">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/price-group-list.aspx" Text="Giá thành">
+                                    </dx:MenuItem>
+                                </Items>
+
+                            </dx:MenuItem>
+
+
+
+                            <dx:MenuItem Text="Quản lý chỉ tiêu" Name="menu_quanlychitieu">
+                                <Items>
+                                    <dx:MenuItem Text="Chỉ tiêu DS Nhập" NavigateUrl="~/Forms/target-sellin-list.aspx">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Chỉ tiêu DS Bán" NavigateUrl="~/Forms/target-saleout-list.aspx">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/target-focus-item.aspx" Text="Mặt hàng tập trung">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Quản lý CTKM" Name="menu_quanlyctkm">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Promo/promo-list.aspx" Text="Định nghĩa chương trình">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Promo/promo-ontopdiscount-list.aspx" Text="Chiết khấu theo nhóm KH">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Quản lý tuyến" Name="menu_quanlytuyen" Visible="false">
+                                <Items>
+                                    <dx:MenuItem Text="Khách hàng" NavigateUrl="~/Forms/Route/customer-list.aspx">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Tuyến bán hàng" Visible="False">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="~/Forms/Route/route-list.aspx" Text="Tuyến - Khu vực">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Forms/Route/route-sub-list.aspx" Text="Tuyến - Thứ">
+                                            </dx:MenuItem>
+                                        </Items>
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Name="menu_route_weekdays" NavigateUrl="~/Forms/Route/route-weekdays-list.aspx" Text="Tuyến - Thứ">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Phiếu nhập kho" NavigateUrl="~/Forms/SellIn-List.aspx" Name="menu_nhapkho">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Phiếu xuất kho" NavigateUrl="~/Forms/saleout-list.aspx" Name="menu_xuatkho">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Đơn hàng đã duyệt" NavigateUrl="~/Forms/saleout-confirmed-list.aspx" Name="menu_donhangduyet">
+                            </dx:MenuItem>
+
+                            <dx:MenuItem Text="Công nợ KH" Name="menu_congno">
+                                <Items>
+                                    <dx:MenuItem Name="menu_phieuthu" NavigateUrl="~/Forms/Payment/TrackingCustomerDebt.aspx" Text="Thu tiền khách hàng ">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Name="menu_phieuthu" NavigateUrl="~/Forms/Payment/TrackingCustomerDebtReport.aspx" Text="Theo dõi công nợ khách hàng">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Name="menu_phieuthu" NavigateUrl="~/Forms/Payment/payment-edit-2.aspx" Text="Phiếu thu">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem NavigateUrl="~/Forms/Payment/debit-credit-list.aspx" Text="Điều chỉnh công nợ" Visible="false">
+                                    </dx:MenuItem>
+                                       <dx:MenuItem NavigateUrl="~/Forms/Payment/congnodauky-list.aspx" Text="Công nợ gối đầu" Visible="false">
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+
+                            <dx:MenuItem Text="Báo cáo" Name="menu_baocao">
+                                <Items>
+                                    <dx:MenuItem NavigateUrl="~/Report/ExportPivotExcel.aspx" Text="Xuất báo cáo Pivot Excel">
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Báo cáo nhân viên bán hàng">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="~/Report/rptDailyReport.aspx" Text="Doanh số NV Theo Ngày">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoDoanhSoTheoKhachHang.aspx" Text="Doanh số Khách hàng">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-DoanhSoKhachHangVsChiTieu.aspx" Text="Doanh số Khách hàng vs Chỉ Tiêu">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rptKPI.aspx" Text="KPI">
+                                            </dx:MenuItem>
+                                        </Items>
+                                    </dx:MenuItem>
+
+                                    <dx:MenuItem Text="Báo cáo nhà phân phối">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="Report/rpt-DanhSachKHachHang.aspx" Text="Danh sách khách hàng">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="Report/rpt-InDonHangTong.aspx" Text="In hóa đơn lẻ" Visible="false">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-InDongHangTong.aspx" Text="Đơn hàng tổng" >
+                                            </dx:MenuItem>
+
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-sellin-mtd.aspx" Text="Doanh số nhập">
+                                            </dx:MenuItem>
+
+                                            <dx:MenuItem NavigateUrl="~/Report/rptInventory.aspx" Text="Báo cáo tồn kho">
+                                            </dx:MenuItem>
+
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoTonKhoTheoNgay2.aspx" Text="Báo cáo tồn kho theo ngày">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx" Text="Báo cáo tồn kho ngày theo giá trị " Visible="false">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-InBaoCaoTonKho.aspx" Text="In báo cáo chốt kho">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rptPromo.aspx" Text="Thanh toán KM">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoKhachHangKhongMuaHang.aspx" Text="Khách hàng không mua hàng">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoChietKhauKM.aspx" Text="Chiết khấu KM">
+                                            </dx:MenuItem>
+                                        </Items>
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Công nợ">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoTongHopThuTien.aspx" Text="Báo cáo tổng hợp thu tiền">
+                                            </dx:MenuItem>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-CongNoQuaHan.aspx" Text="Công nợ quá hạn">
+                                            </dx:MenuItem>
+                                             <dx:MenuItem NavigateUrl="~/Report/rpt-BaoCaoCongNo.aspx" Text="Báo cáo công nợ">
+                                            </dx:MenuItem>
+
+
+                                        </Items>
+                                    </dx:MenuItem>
+                                    <dx:MenuItem Text="Dữ liệu thô">
+                                        <Items>
+                                            <dx:MenuItem NavigateUrl="~/Report/rpt-RawData.aspx" Text="Dữ liệu bán hàng">
+                                            </dx:MenuItem>
+                                        </Items>
+                                    </dx:MenuItem>
+                                </Items>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Thoát" NavigateUrl="~/Login.aspx">
+                            </dx:MenuItem>
+                        </Items>
+                        <LoadingPanelImage Url="~/App_Themes/Office2010Blue/Web/Loading.gif">
+                        </LoadingPanelImage>
+                        <ItemSubMenuOffset FirstItemX="2" LastItemX="2" X="2" />
+                        <ItemStyle DropDownButtonSpacing="10px" PopOutImageSpacing="10px" />
+                        <LoadingPanelStyle ImageSpacing="5px">
+                        </LoadingPanelStyle>
+                        <SubMenuStyle GutterImageSpacing="9px" GutterWidth="13px" />
+                    </dx:ASPxMenu>
+                </div>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <hr style="margin-top: 40px" />
+            <div class="footer" style="color: #fff">
+                © 2016-2017 Group 7.
+            </div>
+        </div>
+    </form>
+</body>
+</html>

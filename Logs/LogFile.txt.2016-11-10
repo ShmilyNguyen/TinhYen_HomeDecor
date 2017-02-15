@@ -1,0 +1,9 @@
+11/10/2016 09:59:50 [7] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+11/10/2016 09:59:50 [7] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+11/10/2016 09:59:50 [7] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+11/10/2016 10:29:50 [14] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin-miendong - ::1 : /Login.aspx
+11/10/2016 10:29:50 [14] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-miendong-::1-/Login.aspx-Login
+11/10/2016 10:29:50 [14] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-miendong-::1-/Login.aspx-Thread was being aborted.
+11/10/2016 10:47:17 [10] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin-miendong - ::1 : /Login.aspx
+11/10/2016 10:47:17 [10] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-miendong-::1-/Login.aspx-Login
+11/10/2016 10:47:17 [10] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-miendong-::1-/Login.aspx-Thread was being aborted.

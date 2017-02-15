@@ -1,0 +1,632 @@
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNhanVien.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNPP.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_2.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKhoTong.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_All.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser_mt.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuInTonKho.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser_mt.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser.resources
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.csproj.GenerateResource.Cache
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll.licenses
+E:\Source\BitBucket\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll
+E:\Source\BitBucket\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll
+E:\Source\BitBucket\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll
+E:\Source\BitBucket\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll
+E:\Source\BitBucket\wks.dem.web\bin\WKS.DMS.WEB.dll.config
+E:\Source\BitBucket\wks.dem.web\bin\WKS.DMS.WEB.dll
+E:\Source\BitBucket\wks.dem.web\bin\WKS.DMS.WEB.pdb
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Charts.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Data.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.DataAccess.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Office.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Utils.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Web.ASPxThemes.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Web.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Xpo.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.dll
+E:\Source\BitBucket\wks.dem.web\bin\log4net.dll
+E:\Source\BitBucket\wks.dem.web\bin\Microsoft.ApplicationBlocks.Data.dll
+E:\Source\BitBucket\wks.dem.web\bin\Microsoft.SqlServer.Types.dll
+E:\Source\BitBucket\wks.dem.web\bin\Newtonsoft.Json.dll
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.Design.dll
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.Device.Detection.dll
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.UI.dll
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.UI.Skins.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraBars.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.dll
+E:\Source\BitBucket\wks.dem.web\bin\EnvDTE.dll
+E:\Source\BitBucket\wks.dem.web\bin\stdole.dll
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Data.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.DataAccess.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Office.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Utils.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Web.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Xpo.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.xml
+E:\Source\BitBucket\wks.dem.web\bin\log4net.xml
+E:\Source\BitBucket\wks.dem.web\bin\Newtonsoft.Json.xml
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.Device.Detection.xml
+E:\Source\BitBucket\wks.dem.web\bin\Telerik.Web.UI.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraBars.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.xml
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Data.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Data.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Data.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Data.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Utils.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Utils.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Utils.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Utils.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Web.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Web.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Web.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Web.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\de\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\es\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\bin\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.pdb
+E:\Source\BitBucket\wks.dem.web\obj\Debug\WKS.DMS.WEB.csprojResolveAssemblyReference.cache
+E:\Source\WIKI\TMDT\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\WKS.DMS.WEB.dll.config
+E:\Source\WIKI\TMDT\wks.dem.web\bin\WKS.DMS.WEB.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\WKS.DMS.WEB.pdb
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Charts.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Data.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.DataAccess.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Office.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Utils.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Web.ASPxThemes.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Web.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Xpo.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\log4net.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Microsoft.ApplicationBlocks.Data.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Microsoft.SqlServer.Types.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Newtonsoft.Json.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.Design.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.Device.Detection.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.UI.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.UI.Skins.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraBars.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\EnvDTE.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\stdole.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Data.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.DataAccess.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Office.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Utils.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Web.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Xpo.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\log4net.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Newtonsoft.Json.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.Device.Detection.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\Telerik.Web.UI.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraBars.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.xml
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Data.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Data.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Data.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Data.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Utils.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Utils.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Utils.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Utils.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Web.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Web.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Web.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Web.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\de\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\es\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\bin\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.csprojResolveAssemblyReference.cache
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNhanVien.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNPP.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_2.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKhoTong.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_All.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser_mt.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuInTonKho.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser_mt.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser.resources
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.csproj.GenerateResource.Cache
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll.licenses
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll
+E:\Source\WIKI\TMDT\wks.dem.web\obj\Debug\WKS.DMS.WEB.pdb
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\WKS.DMS.WEB.dll.config
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\WKS.DMS.WEB.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\WKS.DMS.WEB.pdb
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Charts.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Data.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.DataAccess.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Office.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Utils.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Web.ASPxThemes.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Web.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Xpo.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\log4net.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Microsoft.ApplicationBlocks.Data.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Microsoft.SqlServer.Types.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Newtonsoft.Json.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.Design.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.Device.Detection.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.UI.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.UI.Skins.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraBars.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\EnvDTE.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\stdole.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Data.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.DataAccess.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.PivotGrid.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Printing.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Office.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.RichEdit.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Utils.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Web.ASPxPivotGrid.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Web.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Xpf.Printing.v14.1.Service.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Xpo.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraCharts.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraEditors.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraGauges.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraPivotGrid.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraPrinting.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.Sparkline.v14.1.Core.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Service.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraReports.v14.1.Web.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\log4net.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Newtonsoft.Json.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.Device.Detection.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\Telerik.Web.UI.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraBars.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\DevExpress.XtraTreeList.v14.1.xml
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Data.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Data.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Data.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Data.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.DataAccess.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Printing.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Utils.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Utils.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Utils.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Utils.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Web.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Web.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Web.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Web.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Xpo.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraCharts.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraEditors.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraReports.v14.1.Web.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraBars.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\de\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\es\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\bin\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNhanVien.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNPP.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_2.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKhoTong.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_All.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser_mt.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuInTonKho.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser_mt.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser.resources
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.csproj.GenerateResource.Cache
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll.licenses
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.dll
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.pdb
+E:\Source\Final_Project\TinhYen_Decor\wks.dem.web\obj\Debug\WKS.DMS.WEB.csprojResolveAssemblyReference.cache
+C:\Users\Shmily\Desktop\New folder (2)\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\WKS.DMS.WEB.dll.config
+C:\Users\Shmily\Desktop\New folder (2)\bin\WKS.DMS.WEB.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\WKS.DMS.WEB.pdb
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Charts.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Data.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.DataAccess.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Office.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Printing.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Utils.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Web.ASPxPivotGrid.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Web.ASPxThemes.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Web.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Xpf.Printing.v14.1.Service.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Xpo.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraCharts.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraEditors.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraPivotGrid.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraPrinting.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.Service.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.Web.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\log4net.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Newtonsoft.Json.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.Design.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.Device.Detection.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.UI.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.UI.Skins.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraBars.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraTreeList.v14.1.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\EnvDTE.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\stdole.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Data.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.DataAccess.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Printing.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Office.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Utils.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Web.ASPxPivotGrid.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Web.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Xpf.Printing.v14.1.Service.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Xpo.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraCharts.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraEditors.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraPivotGrid.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraPrinting.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.Service.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraReports.v14.1.Web.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\log4net.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\Newtonsoft.Json.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.Device.Detection.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\Telerik.Web.UI.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraBars.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\DevExpress.XtraTreeList.v14.1.xml
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.DataAccess.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Utils.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Utils.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Utils.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Utils.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Web.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Web.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Web.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Web.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Xpo.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraEditors.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraPivotGrid.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraReports.v14.1.Web.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraReports.v14.1.Web.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraReports.v14.1.Web.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraReports.v14.1.Web.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraBars.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\de\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\es\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\bin\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.csprojResolveAssemblyReference.cache
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNhanVien.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rpt_DonHangTongTheoNPP.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_2.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKhoTong.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptInPhieuXuatKho_All.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser_mt.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuGiaoHang_InLaser.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuInTonKho.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser_mt.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.Report.rptFiles.rptPhieuXuatKho_InLaser.resources
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.csproj.GenerateResource.Cache
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.dll.licenses
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.dll
+C:\Users\Shmily\Desktop\New folder (2)\obj\Debug\WKS.DMS.WEB.pdb

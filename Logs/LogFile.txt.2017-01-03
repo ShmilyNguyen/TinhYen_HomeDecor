@@ -1,0 +1,9 @@
+01/03/2017 08:37:18 [5] INFO  WKS.DMS.WEB.clsCommon [(null)] - npptestmn - 127.0.0.1 : /Login.aspx
+01/03/2017 08:37:18 [5] ERROR WKS.DMS.WEB.clsCommon [(null)] - npptestmn-127.0.0.1-/Login.aspx-Login
+01/03/2017 08:37:18 [5] ERROR WKS.DMS.WEB.clsCommon [(null)] - npptestmn-127.0.0.1-/Login.aspx-Thread was being aborted.
+01/03/2017 08:49:42 [11] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - 127.0.0.1 : /login.aspx
+01/03/2017 08:49:42 [11] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-127.0.0.1-/login.aspx-Login
+01/03/2017 08:49:42 [11] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-127.0.0.1-/login.aspx-Thread was being aborted.
+01/03/2017 09:38:53 [12] INFO  WKS.DMS.WEB.clsCommon [(null)] - npptestmn - 127.0.0.1 : /Login.aspx
+01/03/2017 09:38:53 [12] ERROR WKS.DMS.WEB.clsCommon [(null)] - npptestmn-127.0.0.1-/Login.aspx-Login
+01/03/2017 09:38:53 [12] ERROR WKS.DMS.WEB.clsCommon [(null)] - npptestmn-127.0.0.1-/Login.aspx-Thread was being aborted.

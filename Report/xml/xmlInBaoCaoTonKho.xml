@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BaoCaoTonKho" nillable="true" type="BaoCaoTonKho" />
+  <xs:complexType name="BaoCaoTonKho">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="store_name" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="store_address" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="store_phone" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="data_month" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="data_year" type="xs:string" />
+
+      <xs:element minOccurs="1" maxOccurs="1" name="item_name" type="xs:string" />
+
+      <xs:element minOccurs="1" maxOccurs="1" name="SLTonDauHangBan" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLTonDauKM" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLMuaVaoHangBan" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLMuaVaoKM" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLBan" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLKM" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLTonCuoiThucTe_HangBan" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLTonCuoiThucTe_KM" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SLTonCuoiThucTe" type="xs:int" />
+
+      <xs:element minOccurs="1" maxOccurs="1" name="GTTonDauHangBan" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTTonDauKM" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTMuaVaoHangBan" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTMuaVaoKM" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTBan" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTKM" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTTonCuoi_HangBan" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTTonCuoi_HangKM" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GTTonCuoi" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

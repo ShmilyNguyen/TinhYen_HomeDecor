@@ -1,0 +1,17 @@
+﻿body { 
+  background-image: url("../images/banner-bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-color:#d60000;
+  font:tahoma;
+ 
+}
+
+
+.box {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }

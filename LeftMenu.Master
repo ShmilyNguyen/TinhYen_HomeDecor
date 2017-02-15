@@ -1,0 +1,984 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LeftMenu.master.cs" Inherits="WKS.DMS.WEB.LeftMenu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tịnh Yên Home Decor </title>
+    <asp:ContentPlaceHolder ID="header" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <link rel="icon" href="http://cdn.shabbychic.com/media/favicon/default/R.jpg" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" type="text/css" href="styles/vintage_normalize.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_foundation.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_chosen.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_wedgets.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_flexslides.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_cripes.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_bubble.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/vintage_prints.css" media="print" />
+
+    <!-- JavaScript  -->
+
+
+    <script type="text/javascript" src="/scripts/js/jquery.js"></script>
+    <script type="text/javascript" src="/scripts/js/bubble.js"></script>
+    <script type="text/javascript" src="/scripts/js/banner.js"></script>
+    <script type="text/javascript" src="/scripts/js/translate.js"></script>
+    <script type="text/javascript" src="/scripts/js/validation.js"></script>
+    <script type="text/javascript" src="/scripts/js/cookie.js"></script>
+    <script type="text/javascript" src="/scripts/js/dragdrop.js"></script>
+    <script type="text/javascript" src="/scripts/js/chosen_proto.js"></script>
+    <script type="text/javascript" src="/scripts/js/control.js"></script>
+    <script type="text/javascript" src="/scripts/js/builder.js"></script>
+    <script type="text/javascript" src="/scripts/js/ccard.js"></script>
+    <script type="text/javascript" src="/scripts/js/effect.js"></script>
+    <script type="text/javascript" src="/scripts/js/form.js"></script>
+    <script type="text/javascript" src="/scripts/js/jquery_cookie.js"></script>
+    <script type="text/javascript" src="/scripts/js/jquery_flexSlider_min.js"></script>
+    <script type="text/javascript" src="/scripts/js/prototype.js"></script>
+    <script type="text/javascript" src="/scripts/js/app.js"></script>
+    <script type="text/javascript" src="/scripts/js/js.js"></script>
+    <script type="text/javascript" src="/scripts/js/menu.js"></script>
+    <script type="text/javascript" src="/scripts/js/simulate.js"></script>
+    <script type="text/javascript" src="/scripts/js/slider.js"></script>
+    <script type="text/javascript" src="/scripts/js/foundation.js"></script>
+    <script type="text/javascript" src="/scripts/js/foundation_reveal.js"></script>
+
+
+
+
+    <%--<script src='<%= ResolveUrl("scripts/js/app.js") %>'></script>--%>
+
+    <%-- <script type="text/javascript" src="http://cdn.shabbychic.com/js/prototype/prototype.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/prototype/chosen.proto.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/lib/ccard.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/prototype/validation.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/scriptaculous/builder.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/scriptaculous/effects.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/scriptaculous/dragdrop.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/scriptaculous/controls.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/scriptaculous/slider.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/varien/js.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/varien/form.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/varien/menu.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/mage/translate.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/mage/cookies.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/jquery/simulate.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/activated/slider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/activated/slider/banner.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/js/webtex/bubble.js"></script>
+     <script type="text/javascript" src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/foundation/js/foundation/foundation.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/foundation/js/foundation/foundation.reveal.js"></script>
+    <script type="text/javascript" src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/js/app.js"></script>--%>
+
+
+    <link href="http://www.shabbychic.com/rss/catalog/new/store_id/1/" title="New Products" rel="alternate" type="application/rss+xml" />
+    <link href="http://www.shabbychic.com/rss/catalog/special/store_id/1/cid/0/" title="Special Products" rel="alternate" type="application/rss+xml" />
+    <link href="http://www.shabbychic.com/rss/catalog/salesrule/store_id/1/cid/0/" title="Coupons/Discounts" rel="alternate" type="application/rss+xml" />
+    <script type="text/javascript">
+        //<![CDATA[
+        Mage.Cookies.path = '/';
+        Mage.Cookies.domain = '.www.shabbychic.com';
+        //]]>
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        optionalZipCountries = ["HK", "IE", "MO", "PA"];
+        //]]>
+    </script>
+    <!-- Equity Facebook Pixel for Magento -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1581779295464212');
+        fbq('track', "PageView");
+    </script>
+    <!-- Equity Facebook Pixel for Magento -->
+    <script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script>
+    <link rel="author" href="https://plus.google.com/104144985684454454852/" />
+    <meta name="p:domain_verify" content="622e583c847605ed212826e096036b10" />
+    <style type="text/css">
+        .overlay {
+            background: rgba(255, 255, 255, .5);
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+
+
+<body>
+
+    <!-- BEGIN GOOGLE ANALYTICS CODEs -->
+    <script type="text/javascript">
+        //<![CDATA[
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-25438904-1']);
+
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        //]]>
+    </script>
+    <!-- END GOOGLE ANALYTICS CODE -->
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+            <div class="page">
+                <div class="header-container">
+                    <div class="header">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <h1 class="logo"><strong>Tịnh Yên Home décor</strong><a href="http://www.shabbychic.com/" title="Rachel Ashwell Shabby Chic Couture" class="logo"><img src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/images/logo.png" alt="Rachel Ashwell Shabby Chic Couture" /></a></h1>
+
+                                <asp:DropDownList ID="dllLanguage" runat="server" AutoPostBack="True" OnSelectedIndexChanged="changeLanguage">
+                                    <asp:ListItem Value="en-US">English (US)</asp:ListItem>
+                                    <asp:ListItem Value="vi">VietNamese</asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                        </div>
+                        <div class="show-for-large-up">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <div class="quick-access">
+                                        <form class="form-search" id="search_mini_form" action="http://www.shabbychic.com/catalogsearch/result/" method="get">
+                                            <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
+                                            <div id="search_autocomplete" class="search-autocomplete"></div>
+                                            <script type="text/javascript">
+                                                //<![CDATA[
+                                                var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+                                                searchForm.initAutocomplete('http://www.shabbychic.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                                                //]]>
+                                            </script>
+                                        </form>
+
+
+
+
+                                        <ul class="links">
+                                            <li class="first"><a href="#" title="" class="reveal-search">Search</a></li>
+                                            <li><a href="https://www.shabbychic.com/customer/account/" title="">My Account</a></li>
+                                            <li><a href="/wishlist" title="">Wish List</a></li>
+                                            <li>
+                                                <div class="bubbleInfo" id="webtexgiftregistrybox">
+                                                    <div style="opacity: 0; top: -50px; left: -33px; display: none;" id="dpop" class="popup">
+                                                        <h4>Find a Gift Registry</h4>
+                                                        <form method="post" action="http://www.shabbychic.com/webtexgiftregistry/index/searchRegistry/">
+                                                            <p>
+                                                                <label for="firstname">First Name:</label>
+                                                                <input type="text" name="firstname" id="firstname" value="" />
+                                                            </p>
+                                                            <p>
+                                                                <label for="lastname">Last Name:</label>
+                                                                <input type="text" name="lastname" id="lastname" value="" />
+                                                            </p>
+                                                            <h4>OR</h4>
+                                                            <p>
+                                                                <label for="registryid">Registry ID:</label>
+                                                                <input type="text" name="registry_id" id="registryid" value="" />
+                                                            </p>
+                                                            <p class="block-poll">
+                                                                <button class="button" type="submit"><span>Search</span></button>
+                                                            </p>
+                                                            <a href="https://www.shabbychic.com/webtexgiftregistry/index/addRegistry/">Create a Gift Registry</a><a href="https://www.shabbychic.com/webtexgiftregistry/index/viewItems/">View My Gift Registry</a>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <a href="#" title="Gift Registry" id="giftRegistryLink">Gift Registry</a></li>
+                                            <li><a href="/stores" title="">Stores</a></li>
+                                            <li class=" last"><a href="http://www.shabbychic.com/checkout/cart/" title="" class="top-link-cart"><span></span>Shopping Bag</a></li>
+                                        </ul>
+                                        <div class="block block-cart">
+                                            <span class="cart-arrow"></span>
+                                            <div class="mini-cart">
+                                                <div class="block-title">
+                                                    <strong><span>Shopping Bag</span></strong>
+                                                </div>
+                                                <div class="block-content">
+                                                    <p class="empty">You have no items in your shopping cart.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-nav">
+                                            <ul class="media-nav">
+                                                <li><a class="lookbook-link blue" href=""></a>Tinh Yen Home décor</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="medium-8 show-for-medium-only columns right">
+                                <div class="quick-access">
+                                    <form class="form-search" id="search_mini_form" action="http://www.shabbychic.com/catalogsearch/result/" method="get">
+                                        <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
+                                        <div id="search_autocomplete" class="search-autocomplete"></div>
+                                        <script type="text/javascript">
+                                            //<![CDATA[
+                                            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+                                            searchForm.initAutocomplete('http://www.shabbychic.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                                            //]]>
+                                        </script>
+                                    </form>
+
+
+
+                                    <ul class="links">
+                                        <li class="first"><a href="#" title="" class="reveal-search">Search</a></li>
+                                        <li><a href="https://www.shabbychic.com/customer/account/" title="">My Account</a></li>
+                                        <li><a href="/wishlist" title="">Wish List</a></li>
+                                        <li>
+                                            <div class="bubbleInfo" id="webtexgiftregistrybox">
+                                                <div style="opacity: 0; top: -50px; left: -33px; display: none;" id="dpop" class="popup">
+                                                    <h4>Find a Gift Registry</h4>
+                                                    <form method="post" action="http://www.shabbychic.com/webtexgiftregistry/index/searchRegistry/">
+                                                        <p>
+                                                            <label for="firstname">First Name:</label>
+                                                            <input type="text" name="firstname" id="firstname" value="" />
+                                                        </p>
+                                                        <p>
+                                                            <label for="lastname">Last Name:</label>
+                                                            <input type="text" name="lastname" id="lastname" value="" />
+                                                        </p>
+                                                        <h4>OR</h4>
+                                                        <p>
+                                                            <label for="registryid">Registry ID:</label>
+                                                            <input type="text" name="registry_id" id="registryid" value="" />
+                                                        </p>
+                                                        <p class="block-poll">
+                                                            <button class="button" type="submit"><span>Search</span></button>
+                                                        </p>
+                                                        <a href="https://www.shabbychic.com/webtexgiftregistry/index/addRegistry/">Create a Gift Registry</a><a href="https://www.shabbychic.com/webtexgiftregistry/index/viewItems/">View My Gift Registry</a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <a href="#" title="Gift Registry" id="giftRegistryLink">Gift Registry</a></li>
+                                        <li><a href="/stores" title="">Stores</a></li>
+                                        <li class=" last"><a href="http://www.shabbychic.com/checkout/cart/" title="" class="top-link-cart"><span></span>Shopping Bag</a></li>
+                                    </ul>
+                                    <div class="block block-cart">
+                                        <span class="cart-arrow"></span>
+                                        <div class="mini-cart">
+                                            <div class="block-title">
+                                                <strong><span>Shopping Bag</span></strong>
+                                            </div>
+                                            <div class="block-content">
+                                                <p class="empty">You have no items in your shopping cart.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-nav-container">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <div class="menu">
+                                    <nav class="site-nav">
+                                        <section class="nav-section hide-for-large-up">
+                                            <div class="mobile-nav-section">
+                                                <ul class="mobile-nav">
+                                                    <li><a class="show-for-small-only show-search" href="#"><span class="hide-for-small-only">Search</span></a></li>
+                                                    <li class="mobile-menu"><a href="#">Shop</a></li>
+                                                    <li><a class="blog-link" href="/blog">Blog</a></li>
+                                                    <li><a class="show-for-small-only mobile-account" href="http://www.shabbychic.com/customer/account"><span class="hide-for-small-only">My Account</span></a></li>
+                                                    <li><a class="show-for-small-only mobile-wishlist" href="http://www.shabbychic.com/wishlist"><span class="hide-for-small-only">Wishlist</span></a></li>
+                                                    <li><a class="show-for-small-only top-link-cart" href="http://www.shabbychic.com/checkout/cart"><span></span><span class="hide-for-small-only">Shopping Bag</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="block block-cart">
+                                                <span class="cart-arrow"></span>
+                                                <div class="mini-cart">
+                                                    <div class="block-title">
+                                                        <strong><span>Shopping Bag</span></strong>
+                                                    </div>
+                                                    <div class="block-content">
+                                                        <p class="empty">You have no items in your shopping cart.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-search">
+                                                <form class="form-search" id="search_mini_form" action="http://www.shabbychic.com/catalogsearch/result/" method="get">
+                                                    <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
+                                                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                                                    <script type="text/javascript">
+                                                        //<![CDATA[
+                                                        var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search...');
+                                                        searchForm.initAutocomplete('http://www.shabbychic.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                                                        //]]>
+                                                    </script>
+                                                </form>
+                                            </div>
+                                        </section>
+
+                                        <!-- Menu  -->
+                                        <section class="nav-section main main-hide">
+                                            <ul class="clearfix">
+                                                <!-- start menu bar-->
+                                                <li class="level0 nav-3 level-top has-dropdown"><a href="furniture.aspx"><span>
+                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="funiture"></asp:Label></span></a><div class="dropdown">
+                                                        <ul class="level0">
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-3-1 first"><a href="http://www.shabbychic.com/furniture/slip-cover-furniture.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="offices"></asp:Label>
+                                                                    </span></a>
+                                                                        <div class="submenu">
+                                                                            <ul class="level1">
+                                                                                <li class="level2 nav-3-1-2"><a href="http://www.shabbychic.com/furniture/slip-cover-furniture/chairs-chaise.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="officeChaid"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-1-3"><a href="http://www.shabbychic.com/furniture/slip-cover-furniture/beds-headboards.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="filingCabinet"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-1-5 last"><a href="http://www.shabbychic.com/furniture/slip-cover-furniture/slipcovers.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="tableMeeting"></asp:Label></span></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="level1 nav-3-2"><a href="http://www.shabbychic.com/furniture/dining-room.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="diningRoom"></asp:Label>
+                                                                    </span></a>
+                                                                        <div class="submenu">
+                                                                            <ul class="level1">
+                                                                                <li class="level2 nav-3-2-1 first"><a href="http://www.shabbychic.com/furniture/dining-room/dining-tables-chairs.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="diningChair"></asp:Label>
+                                                                                </span></a></li>
+                                                                                <li class="level2 nav-3-2-2 last"><a href="http://www.shabbychic.com/furniture/dining-room/buffets.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="diningShelf"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-2-2 last"><a href="http://www.shabbychic.com/furniture/dining-room/buffets.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="diningOther"></asp:Label></span></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-3-3"><a href="http://www.shabbychic.com/furniture/bedroom.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="bedRoom"></asp:Label></span></a><div class="submenu">
+                                                                            <ul class="level1">
+                                                                                <li class="level2 nav-3-3-1 first"><a href="http://www.shabbychic.com/furniture/bedroom/beds-headboards.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="bed"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-3-2"><a href="http://www.shabbychic.com/furniture/bedroom/dressers.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="bedShelf"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-3-3 last"><a href="http://www.shabbychic.com/furniture/bedroom/side-tables.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="makeUp"></asp:Label>
+                                                                                </span></a></li>
+                                                                                <li class="level2 nav-3-3-3 last"><a href="http://www.shabbychic.com/furniture/bedroom/side-tables.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="bedOther"></asp:Label>
+                                                                                </span></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="level1 nav-3-4"><a href="http://www.shabbychic.com/furniture/living-room.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="livingRoom"></asp:Label></span></a><div class="submenu">
+                                                                            <ul class="level1">
+                                                                                <li class="level2 nav-3-4-1 first"><a href="http://www.shabbychic.com/furniture/living-room/coffee-side-tables.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="sofa"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-4-2"><a href="http://www.shabbychic.com/furniture/living-room/consoles-cabinets.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="tivi"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-4-3 last"><a href="http://www.shabbychic.com/furniture/living-room/other-seating.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="cabinets"></asp:Label>
+                                                                                </span></a></li>
+                                                                                <li class="level2 nav-3-4-3 last"><a href="http://www.shabbychic.com/furniture/living-room/other-seating.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="table"></asp:Label>
+                                                                                </span></a></li>
+                                                                                <li class="level2 nav-3-4-3 last"><a href="http://www.shabbychic.com/furniture/living-room/other-seating.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="liquor"></asp:Label>
+                                                                                </span></a></li>
+                                                                                <li class="level2 nav-3-4-3 last"><a href="http://www.shabbychic.com/furniture/living-room/other-seating.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="livingDecor"></asp:Label>
+                                                                                </span></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-3-5"><a href="http://www.shabbychic.com/furniture/fabric.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="kitchen"></asp:Label>
+                                                                    </span></a>
+                                                                        <div class="submenu">
+                                                                            <ul class="level1">
+                                                                                <li class="level2 nav-3-5-1 first"><a href="http://www.shabbychic.com/furniture/fabric/drapery.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="kitchenShelf"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-5-2 last"><a href="http://www.shabbychic.com/furniture/fabric/slipcover-and-upholstery.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="accessoriesWall"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-5-2 last"><a href="http://www.shabbychic.com/furniture/fabric/slipcover-and-upholstery.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="kitchenAccessories"></asp:Label></span></a></li>
+                                                                                <li class="level2 nav-3-5-2 last"><a href="http://www.shabbychic.com/furniture/fabric/slipcover-and-upholstery.html"><span>
+                                                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="kitchenOther"></asp:Label></span></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="level1 nav-3-6"><a href="http://www.shabbychic.com/furniture/upholstered-furniture.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="baby"></asp:Label>
+                                                                    </span></a></li>
+                                                                    <div class="submenu">
+                                                                        <ul class="level1">
+                                                                            <li class="level2 nav-3-5-1 first"><a href="http://www.shabbychic.com/furniture/fabric/drapery.html"><span>
+                                                                                <asp:Label runat="server" Text="laber" meta:resourceKey="babyFuniture"></asp:Label></span></a></li>
+                                                                            <br />
+                                                                            <li class="level2 nav-3-5-2 last"><a href="http://www.shabbychic.com/furniture/fabric/slipcover-and-upholstery.html"><span>
+                                                                                <asp:Label runat="server" Text="laber" meta:resourceKey="smartFuniture"></asp:Label></span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-3-7 last"><a href="http://www.shabbychic.com/furniture/new-furniture-collection.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="bath"></asp:Label>
+                                                                    </span></a></li>
+                                                                    <div class="submenu">
+                                                                        <ul class="level1">
+                                                                            <li class="level2 nav-3-5-1 first"><a href="http://www.shabbychic.com/furniture/fabric/drapery.html"><span>
+                                                                                <asp:Label runat="server" Text="laber" meta:resourceKey="bathAccesories"></asp:Label></span></a></li>
+                                                                            <br />
+                                                                            <li class="level2 nav-3-5-2 last"><a href="http://www.shabbychic.com/furniture/fabric/slipcover-and-upholstery.html"><span>
+                                                                                <asp:Label runat="server" Text="laber" meta:resourceKey="bathOther"></asp:Label></span></a></li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </ul>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <!-- ACCESORIES and DECOR-->
+                                                <li class="level0 nav-4 level-top has-dropdown"><a href="http://www.shabbychic.com/bedding.html"><span>
+                                                    <asp:Label runat="server" Text="laber" meta:resourceKey="accessories"></asp:Label></span></a><div class="dropdown">
+                                                        <ul class="level0">
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-4-1 first"><a href="http://www.shabbychic.com/bedding/collection.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="light"></asp:Label></span></a></li>
+                                                                    <li class="level1 nav-4-2"><a href="http://www.shabbychic.com/bedding/sheets.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="curtain"></asp:Label></span></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-4-3"><a href="http://www.shabbychic.com/bedding/pillowcases-shams.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="clock"></asp:Label>
+                                                                    </span></a></li>
+                                                                    <li class="level1 nav-4-4"><a href="http://www.shabbychic.com/bedding/bedskirts.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="pillow"></asp:Label></span></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-4-5"><a href="http://www.shabbychic.com/bedding/inserts.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="footCandle"></asp:Label>
+                                                                    </span></a></li>
+                                                                    <li class="level1 nav-4-6 last"><a href="http://www.shabbychic.com/bedding/monogramming.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="wreath"></asp:Label>
+                                                                    </span></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-4-3"><a href="http://www.shabbychic.com/bedding/pillowcases-shams.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="letter"></asp:Label>
+                                                                    </span></a></li>
+                                                                    <li class="level1 nav-4-4"><a href="http://www.shabbychic.com/bedding/bedskirts.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="painting"></asp:Label></span></a></li>
+                                                                </ul>
+                                                            </li>
+
+
+
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <!-- DECORATIVE GARDEN -->
+                                                <li class="level0 nav-5 level-top has-dropdown"><a href="bath.aspx">
+                                                    <asp:Label runat="server" meta:resourceKey="garden"></asp:Label></a><div class="dropdown">
+                                                        <ul class="level0">
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-5-1 first"><a href="http://www.shabbychic.com/bath/towels.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="flowerPot"></asp:Label></span></a></li>
+                                                                    <li class="level1 nav-5-2"><a href="http://www.shabbychic.com/bath/bath-accessories.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="flowerShelf"></asp:Label></span></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-column">
+                                                                <ul>
+                                                                    <li class="level1 nav-5-3 last"><a href="http://www.shabbychic.com/bath/sleepwear.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="flowerDecor"></asp:Label></span></a></li>
+                                                                    <li class="level1 nav-5-3 last"><a href="http://www.shabbychic.com/bath/sleepwear.html"><span>
+                                                                        <asp:Label runat="server" Text="laber" meta:resourceKey="accesoriesDecor"></asp:Label></span></a></li>
+                                                                </ul>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="level0 nav-6 level-top"><a href="http://www.shabbychic.com/gifts.html"><span>
+                                                    <asp:Label runat="server" meta:resourceKey="design"></asp:Label></span></a><div class="dropdown">
+                                                </li>
+                                                <li class="level0 nav-7 level-top "><a href="http://www.shabbychic.com/tabletop.html"><span>
+                                                    <asp:Label runat="server" meta:resourceKey="contact"></asp:Label></span></a><div class="dropdown">
+                                                </li>
+
+
+
+                                                <li id="static-menu"></li>
+                                            </ul>
+                                        </section>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <div class="social-links" style="float: left;">
+                                    <ul style="margin: 0 0 0 10px;">
+                                        <li><a class="social facebook" href="https://www.facebook.com/pages/Rachel-Ashwell/169544096452382?sk=wall">Facebook</a></li>
+                                        <li><a class="social twitter" href="https://twitter.com/RachelAshwell">Twitter</a></li>
+                                        <li><a class="social pinterest" href="http://www.pinterest.com/rachelashwell/">Pinterest</a></li>
+                                        <li><a class="social instagram" href="http://instagram.com/rachelashwell">Instagram</a></li>
+                                        <li><a class="social youtube" href="https://www.youtube.com/c/RachelAshwellOfficial" target="_blank">YouTube</a></li>
+                                    </ul>
+                                </div>
+                                <p style="margin: 15px 15px 0 0; float: right;"><span style="color: #5783d0;">FREE SHIPPING ON ORDERS OVER $150 / <strong><a style="color: #0000ff;" href="http://www.shabbychic.com/free-shipping-details"><span style="color: #5783d0;">DETAILS</span></a></strong></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+    <asp:ContentPlaceHolder ID="abc" runat="server">
+        <div class="block block-layered-nav main-hide">
+            <div class="block-title show-for-large-up">
+                <strong><span>Shop By Category</span></strong>
+            </div>
+            <div class="block-content">
+                <dl id="narrow-by-list2">
+                    <dd>
+                        <ol class="menu-column">
+                            <li>
+                                <a href="http://www.shabbychic.com/sale.html">Sale</a>
+                            </li>
+                            <li>
+                                <a href="http://www.shabbychic.com/new-arrivals.html">New Arrivals</a>
+                            </li>
+                            <li class="subcat-parent active">
+                                <a href="http://www.shabbychic.com/furniture.html" class="has-subcats">Furniture</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/slip-cover-furniture.html">Slipcovered Furniture		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/dining-room.html">Dining Room		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/bedroom.html">Bedroom		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/living-room.html">Living Room		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/fabric.html">Fabric 		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/upholstered-furniture.html">Upholstered Furniture		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/furniture/new-furniture-collection.html">New Furniture Collection 		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/bedding.html" class="has-subcats">Bedding</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/collection.html">Collection		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/sheets.html">Sheets		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/pillowcases-shams.html">Pillowcases & Shams		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/bedskirts.html">Bedskirts		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/inserts.html">Inserts		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bedding/monogramming.html">Monogramming		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/bath.html" class="has-subcats">Bath</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bath/towels.html">Towels & Mats		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bath/bath-accessories.html">Bath Accessories		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/bath/sleepwear.html">Sleepwear		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/gifts.html" class="has-subcats">Gifts</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/bags-totes.html">Bags & Totes		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/apparel.html">Apparel		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/decor.html">Decor		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/books-stationary.html">Books & Stationery		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/monogramming.html">Monogramming		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/the-prairie.html">The Prairie		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/gifts/holiday-gift-giving.html">Gift Cards		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/tabletop.html" class="has-subcats">Tabletop</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/tabletop/glassware.html">Glassware		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/tabletop/linens.html">Linens		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/tabletop/tableware.html">Tableware		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/tabletop/aprons.html">Aprons		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/tabletop/prairie.html">Prairie		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/lighting.html" class="has-subcats">Lighting</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/lighting/shades.html">Shades		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/lighting/lamps.html">Lamps		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/lighting/chandeliers-sconces.html">Chandeliers & Sconces		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/vintage.html" class="has-subcats">Vintage</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/china.html">China		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/furniture.html">Furniture		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/lamps.html">Lamps		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/rugs.html">Rugs		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/art.html">Art		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/vintage/rachels-photo-props.html">Rachels Photo Props		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/baby.html" class="has-subcats">Baby</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/baby/bedding.html">Bedding		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/baby/furniture.html">Furniture		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/baby/accessories.html">Accessories		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/baby/lighting.html">Lighting		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcat-parent ">
+                                <a href="http://www.shabbychic.com/decor.html" class="has-subcats">Decor</a>
+                                <ul class="subcategory">
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/shabby-chic-by-rachel-ashwell-clay-chalk-paint.html">Shabby Chic by Rachel Ashwell Chalk & Clay Paint		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/holiday-decor.html">Holiday Decor		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/throws.html">Rugs		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/accents.html">Accents		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/mirrors.html">Mirrors 		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/decorative-pillows.html">Decorative Pillows		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/throws-139.html">Throws		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/window-coverings.html">Window Coverings		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/art.html">Art		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/books-stationary.html">Books & Stationery		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/the-prairie.html">The Prairie		                                </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.shabbychic.com/decor/fabric.html">Fabric 		                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
+                </dl>
+                <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+            </div>
+        </div>
+        </div>
+						            		</div>
+						            		<div class="large-9 medium-9 columns">
+                                                <div class="col-main">
+
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="body" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+
+
+        <div class="prefooter">
+            <div class="section last">
+                <span>Join Our Newsletter</span><div class="block block-subscribe">
+                    <form action="https://www.shabbychic.com/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+                        <div class="block-content">
+                            <div class="input-box">
+                                <input type="text" name="email" id="newsletter" placeholder="Enter your e-mail" class="input-text required-entry validate-email" />
+                            </div>
+                            <div class="actions">
+                                <button type="submit" title="Subscribe" class="button"><span>Subscribe</span></button>
+                            </div>
+                        </div>
+                    </form>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+                        //]]>
+                    </script>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="large-12 medium-12 columns">
+                <div class="partner-banners">
+                    <ul>
+                        <li><a href="http://www.target.com/c/simply-shabby-chic-brand-shop/-/N-5ewiu#?lnk=snav_rd_simply_shabby_chic&orginalSearchTerm=simply+shabby+chic">
+                            <img src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/images/footer-banners-02.gif" alt="" /></a></li>
+                        <li><a href="http://www.theprairiebyrachelashwell.com/">
+                            <img src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/images/footer-banners-03.gif" alt="" /></a></li>
+                        <li class="last"><a href="http://www.lilyashwell.com/">
+                            <img src="http://cdn.shabbychic.com/skin/frontend/default/shabbychic/images/lilyashwell-logo.jpg" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="emailSignup" class="reveal-modal" data-reveal>
+            <div class="email-modal">
+                <div class="modal-content">
+                    <h1>Join Our Email List</h1>
+                    <hr />
+                    <h2>Join our email list and receive 10%<br />
+                        off your first order*</h2>
+                    <p>Be the first to hear about new products, special promotions and Rachel's latest inspirations.</p>
+                    <p>*one time only code will be emailed to you. Discount unlikely to combine with all other special offers or special prices.</p>
+                    <div class="block block-subscribe">
+                        <form action="https://www.shabbychic.com/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+                            <div class="block-content">
+                                <div class="input-box">
+                                    <input type="text" name="email" id="newsletter" placeholder="Enter your e-mail" class="input-text required-entry validate-email" />
+                                </div>
+                                <div class="actions">
+                                    <button type="submit" title="Subscribe" class="button"><span>Subscribe</span></button>
+                                </div>
+                            </div>
+                        </form>
+                        <script type="text/javascript">
+                            //<![CDATA[
+                            var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+                            //]]>
+                        </script>
+                    </div>
+                    <a class="close-reveal-modal" href="#">Close</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $j('#emailSignup').data('reveal-init', {
+                css: {
+                    open: {
+                        'opacity': 1,
+                        'visibility': 'visible',
+                        'display': 'block'
+                    },
+                    close: {
+                        'opacity': 0,
+                        'visibility': 'hidden',
+                        'display': 'none'
+                    }
+                }
+            });
+        </script>
+        <div class="large-3 medium-6 columns">
+            <h3>Store Locator</h3>
+            <select class="store-select select">
+                <option value="">Select a Store</option>
+                <option value="santamonica">Santa Monica</option>
+                <option value="sanfrancisco">San Francisco</option>
+                <option value="roundtop">Round Top</option>
+                <option value="tokyo">Tokyo</option>
+            </select>
+        </div>
+        <div class="large-3 medium-6 columns">
+            <h3>General</h3>
+            <ul>
+                <li><a href="http://www.shabbychic.com/to-the-trade">To The Trade</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/our-story">Our Story</a></li>
+                <li><a href="/in-home-design-consultation">In Home Design Services</a></li>
+                <li><a href="/careers">Career Opportunities</a></li>
+                <li><a href="/ordering-information">Ordering Information</a></li>
+            </ul>
+        </div>
+        <div class="large-3 medium-6 columns">
+            <h3>Gifts</h3>
+            <ul>
+                <li><a href="/webtexgiftregistry/index/viewItems/">Registry</a></li>
+                <li><a href="/gift-cards">Gift Cards</a></li>
+            </ul>
+        </div>
+        <div class="large-3 medium-6 columns">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><a href="/contacts" target="_blank">Contact Us</a></li>
+                <li><a href="/terms_and_conditions">Terms & Conditions</a></li>
+                <li><a href="/warranty">Warranty</a></li>
+                <li><a href="/sales/order/history/" target="_blank">Track Order</a></li>
+                <li><a href="/faq" target="_blank">Frequently Asked Questions</a></li>
+                <li>Call 1-800-516-4309</li>
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+
+            jQuery(document).ready(function () {
+                jQuery('').css('color', '#595959');
+            });
+
+        </script>
+        </div>
+		</div>
+		<div class="row">
+            <div class="large-12 columns">
+                <address></address>
+            </div>
+        </div>
+        </div>
+</div>
+        <script type="text/javascript">
+            $j(document).foundation();
+        </script>
+        </div>
+</div>
+        <!-- Google Code for Remarketing Tag -->
+        <!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 1010202584;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1010202584/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>
+    </asp:ContentPlaceHolder>
+</body>
+</html>

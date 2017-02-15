@@ -1,0 +1,57 @@
+01/10/2017 18:32:26 [8] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 18:32:26 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 18:32:26 [8] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 18:38:29 [26] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 18:38:29 [26] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 18:38:29 [26] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 18:39:54 [22] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 18:39:54 [22] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 18:39:54 [22] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 18:46:37 [21] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 18:46:37 [21] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 18:46:37 [21] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:14:27 [73] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 19:14:27 [73] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 19:14:27 [73] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:17:59 [73] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 19:17:59 [73] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 19:17:59 [73] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:22:14 [60] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 19:22:14 [60] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 19:22:14 [60] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:22:46 [64] INFO  WKS.DMS.WEB.clsCommon [(null)] - mthanoi - ::1 : /Login.aspx
+01/10/2017 19:22:46 [64] ERROR WKS.DMS.WEB.clsCommon [(null)] - mthanoi-::1-/Login.aspx-Login
+01/10/2017 19:22:46 [64] ERROR WKS.DMS.WEB.clsCommon [(null)] - mthanoi-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:25:44 [65] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 19:25:44 [65] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 19:25:44 [65] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 19:59:16 [79] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 19:59:16 [79] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 19:59:16 [79] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:00:33 [78] INFO  WKS.DMS.WEB.clsCommon [(null)] - mthanoi - ::1 : /Login.aspx
+01/10/2017 20:00:33 [78] ERROR WKS.DMS.WEB.clsCommon [(null)] - mthanoi-::1-/Login.aspx-Login
+01/10/2017 20:00:33 [78] ERROR WKS.DMS.WEB.clsCommon [(null)] - mthanoi-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:21:05 [70] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 20:21:05 [70] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 20:21:05 [70] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:21:53 [56] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 20:21:53 [56] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 20:21:53 [56] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:22:17 [15] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 20:22:17 [15] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 20:22:17 [15] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:36:37 [14] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 20:36:37 [14] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 20:36:37 [14] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:48:15 [18] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 20:48:15 [18] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 20:48:15 [18] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 20:57:30 [58] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 20:57:30 [58] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 20:57:30 [58] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 21:04:49 [15] INFO  WKS.DMS.WEB.clsCommon [(null)] - admin - ::1 : /Login.aspx
+01/10/2017 21:04:49 [15] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Login
+01/10/2017 21:04:49 [15] ERROR WKS.DMS.WEB.clsCommon [(null)] - admin-::1-/Login.aspx-Thread was being aborted.
+01/10/2017 21:16:00 [9] INFO  WKS.DMS.WEB.clsCommon [(null)] - nppanhthu - ::1 : /Login.aspx
+01/10/2017 21:16:00 [9] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Login
+01/10/2017 21:16:00 [9] ERROR WKS.DMS.WEB.clsCommon [(null)] - nppanhthu-::1-/Login.aspx-Thread was being aborted.

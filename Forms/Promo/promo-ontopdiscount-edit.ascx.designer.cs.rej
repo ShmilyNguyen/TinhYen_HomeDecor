@@ -1,0 +1,17 @@
+diff a/Forms/Promo/promo-ontopdiscount-edit.ascx.designer.cs b/Forms/Promo/promo-ontopdiscount-edit.ascx.designer.cs	(rejected hunks)
+@@ -22,13 +22,13 @@
+         protected global::Telerik.Web.UI.RadComboBox cbxLoaiKhachHang;
+         
+         /// <summary>
+-        /// txtVol control.
++        /// txtVol0 control.
+         /// </summary>
+         /// <remarks>
+         /// Auto-generated field.
+         /// To modify move field declaration from designer file to code-behind file.
+         /// </remarks>
+-        protected global::System.Web.UI.WebControls.TextBox txtVol;
++        protected global::System.Web.UI.WebControls.TextBox txtVol0;
+         
+         /// <summary>
+         /// hdf_row_id control.

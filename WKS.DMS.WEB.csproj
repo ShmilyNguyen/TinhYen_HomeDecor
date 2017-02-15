@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAD03235-663E-4803-9E12-CDDB8F57C04A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WKS.DMS.WEB</RootNamespace>
+    <AssemblyName>WKS.DMS.WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>MyLibs\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1.Service, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Service, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1.Web, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationBlocks.Data.2.0.0\lib\net40\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.11.0.2\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin40\Telerik.Web.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Device.Detection, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin40\Telerik.Web.Device.Detection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin40\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin40\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="App_Data\ReportService.mdf" />
+    <Content Include="change-password.aspx" />
+    <Content Include="CMS\cms-edit.aspx" />
+    <Content Include="CMS\cms-list.aspx" />
+    <Content Include="confirmation.aspx" />
+    <Content Include="Forms\area-edit.ascx" />
+    <Content Include="Forms\area.aspx" />
+    <Content Include="Forms\Category-Edit.ascx" />
+    <Content Include="Forms\Category-List.aspx" />
+    <Content Include="Forms\customer-channel-edit.ascx" />
+    <Content Include="Forms\customer-channel-list.aspx" />
+    <Content Include="Forms\Custom_Import\import-mcp.aspx" />
+    <Content Include="Forms\Custom_Import\import_khachhang.aspx" />
+    <Content Include="Forms\Custom_Import\import_rawdata.aspx" />
+    <Content Include="Forms\Display\frm-DangKyTrungBay.aspx" />
+    <Content Include="Forms\InterFace\furniture.aspx" />
+    <Content Include="Forms\InterFace\home.aspx" />
+    <Content Include="Forms\InterFace\test.aspx" />
+    <Content Include="Forms\inventory-unlock.aspx" />
+    <Content Include="Forms\Payment\congnodauky-edit.aspx" />
+    <Content Include="Forms\Payment\debit-credit-edit.aspx" />
+    <Content Include="Forms\Payment\congnodauky-list.aspx" />
+    <Content Include="Forms\Payment\debit-credit-list.aspx" />
+    <Content Include="Forms\Payment\payment-edit-2.aspx" />
+    <Content Include="Forms\Payment\payment-edit.aspx" />
+    <Content Include="Forms\Payment\payment-list.aspx" />
+    <Content Include="Forms\Payment\payment-row-edit.ascx" />
+    <Content Include="Forms\Payment\TrackingCustomerDebt.aspx" />
+    <Content Include="Forms\Payment\TrackingCustomerDebtReport.aspx" />
+    <Content Include="Forms\price-group-edit.aspx" />
+    <Content Include="Forms\price-group-list.aspx" />
+    <Content Include="Forms\PrintPreview-PhieuGiaoHang.aspx" />
+    <Content Include="Forms\PrintPreview.aspx" />
+    <Content Include="Forms\Promo\promo-ontopdiscount-edit.ascx" />
+    <Content Include="Forms\region-edit.ascx" />
+    <Content Include="Forms\region.aspx" />
+    <Content Include="Forms\Route\change-route.aspx" />
+    <Content Include="Forms\Route\customer-edit.aspx" />
+    <Content Include="Forms\Route\customer-list.aspx" />
+    <Content Include="Forms\Route\Employee-Edit.ascx" />
+    <Content Include="Forms\Route\HR-List.aspx" />
+    <Content Include="Forms\Route\Employee-List.aspx" />
+    <Content Include="Forms\HangHoa-Edit.ascx" />
+    <Content Include="Forms\HangHoa-List.aspx" />
+    <Content Include="Forms\inventory-closing-list.aspx" />
+    <Content Include="Forms\price-edit.ascx" />
+    <Content Include="Forms\price-list.aspx" />
+    <Content Include="Forms\Promo\promo-discount.aspx" />
+    <Content Include="Forms\promo-edit.aspx" />
+    <Content Include="Forms\promo-item-combo.aspx" />
+    <Content Include="Forms\promo-item.aspx" />
+    <Content Include="Forms\Promo\promo-list.aspx" />
+    <Content Include="Forms\Promo\promo-ontopdiscount-list.aspx" />
+    <Content Include="Forms\Promo\promo-row-edit-chietkhau.ascx" />
+    <Content Include="Forms\promo-row-edit-tanghang.ascx" />
+    <Content Include="Forms\Promo\promo-store.aspx" />
+    <Content Include="Forms\promo-vol.aspx" />
+    <Content Include="Forms\Promo\promo-edit.aspx" />
+    <Content Include="Forms\Promo\promo-rule-1.aspx" />
+    <Content Include="Forms\Province-Edit.ascx" />
+    <Content Include="Forms\Province-List.aspx" />
+    <Content Include="Forms\Route\route-edit.aspx" />
+    <Content Include="Forms\Route\route-list.aspx" />
+    <Content Include="Forms\Route\route-sub-edit.aspx" />
+    <Content Include="Forms\Route\route-sub-list.aspx" />
+    <Content Include="Forms\Route\route-weekdays-list.aspx" />
+    <Content Include="Forms\Route\route-weekydays-edit.ascx" />
+    <Content Include="Forms\saleout-confirmed-list.aspx" />
+    <Content Include="Forms\saleout-edit-2.aspx" />
+    <Content Include="Forms\saleout-edit-3.aspx" />
+    <Content Include="Forms\saleout-edit-mt.aspx" />
+    <Content Include="Forms\saleout-return-edit.aspx" />
+    <Content Include="Forms\saleout-row-edit-2.ascx" />
+    <Content Include="Forms\Admin\sys-account-store.aspx" />
+    <Content Include="Forms\Admin\sys-user-price.aspx" />
+    <Content Include="Forms\Sys\sys-closingdays-extra.aspx" />
+    <Content Include="Forms\Sys\sys-closingdays.aspx" />
+    <Content Include="Forms\Sys\sys-config-edit.ascx" />
+    <Content Include="Forms\Sys\sys-config.aspx" />
+    <Content Include="Forms\target-focus-item.aspx" />
+    <Content Include="Forms\target-saleout-edit.ascx" />
+    <Content Include="Forms\target-saleout-list.aspx" />
+    <Content Include="Forms\target-sellin-edit.ascx" />
+    <Content Include="Forms\target-sellin-list.aspx" />
+    <Content Include="Forms\TonDauKy-Edit.ascx" />
+    <Content Include="Forms\TonDauKy-List.aspx" />
+    <Content Include="Forms\TrungBay\trungbay-list.aspx" />
+    <Content Include="Forms\ucChotTonKho.ascx" />
+    <Content Include="Forms\ucThongBao.ascx" />
+    <Content Include="Forms\user_region.aspx" />
+    <Content Include="Monitor\Monitoring1.aspx" />
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Report\ExportPivotExcel.aspx" />
+    <Content Include="Report\rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx" />
+    <Content Include="Report\rpt-BaoCaoTonKhoTheoNgay2.aspx" />
+    <Content Include="Report\rpt-ChiTieuDoanhSoKhachHang.aspx" />
+    <Content Include="Report\rpt-ImportPhanBoCTKM.aspx" />
+    <Content Include="Report\rpt-ImportTuyenBanHang.aspx" />
+    <Content Include="Report\rpt-InDongHangTong.aspx" />
+    <Content Include="Report\rpt-BaoCaoCongNo.aspx" />
+    <Content Include="Report\UploadData.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Print\HTMLPage1.htm" />
+    <Content Include="Print\rpt_InPhieuNhap.aspx" />
+    <Content Include="Print\rpt_InPhieuXuat.aspx" />
+    <Content Include="Report\rpt-BaoCaoChietKhauKM.aspx" />
+    <Content Include="Report\rpt-BaoCaoDoanhSoTheoKhachHang.aspx" />
+    <Content Include="Report\rpt-BaoCaoKhachHangKhongMuaHang.aspx" />
+    <Content Include="Report\rpt-BaoCaoTongHopThuTien.aspx" />
+    <Content Include="Report\rpt-CongNoQuaHan.aspx" />
+    <Content Include="Report\rpt-DoanhSoKhachHangVsChiTieu.aspx" />
+    <Content Include="Report\rpt-DonHangTongTheoNPP.aspx" />
+    <Content Include="Report\rpt-InBaoCaoTonKho.aspx" />
+    <Content Include="Report\rpt-InDonHangTong.aspx" />
+    <Content Include="Report\rpt-RawData.aspx" />
+    <Content Include="Report\rpt-sellin-mtd.aspx" />
+    <Content Include="Report\rptDailyReport.aspx" />
+    <Content Include="Report\rptInventory-Daily.aspx" />
+    <Content Include="Report\rptInventory.aspx" />
+    <Content Include="Forms\saleout-edit.aspx" />
+    <Content Include="Forms\saleout-list.aspx" />
+    <Content Include="Forms\saleout-row-edit.ascx" />
+    <Content Include="Forms\sellin-edit.aspx" />
+    <Content Include="Forms\SellIn-List.aspx" />
+    <Content Include="Forms\SellIn-Row-Edit.ascx" />
+    <Content Include="Forms\Store-Edit.ascx" />
+    <Content Include="Forms\Store-List.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="MasterPageSingleMenu.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Grid.aspx" />
+    <Content Include="images\Chrysanthemum.jpg" />
+    <Content Include="images\Desert.jpg" />
+    <Content Include="images\Hydrangeas.jpg" />
+    <Content Include="images\Jellyfish.jpg" />
+    <Content Include="images\Koala.jpg" />
+    <Content Include="images\Lighthouse.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\Penguins.jpg" />
+    <Content Include="images\Thumbnails\Chrysanthemum.jpg" />
+    <Content Include="images\Thumbnails\Desert.jpg" />
+    <Content Include="images\Thumbnails\Hydrangeas.jpg" />
+    <Content Include="images\Thumbnails\Jellyfish.jpg" />
+    <Content Include="images\Thumbnails\Koala.jpg" />
+    <Content Include="images\Thumbnails\Lighthouse.jpg" />
+    <Content Include="images\Thumbnails\Penguins.jpg" />
+    <Content Include="images\Thumbnails\Tulips.jpg" />
+    <Content Include="images\Tulips.jpg" />
+    <Content Include="ListView.aspx" />
+    <Content Include="Report\rptKPI.aspx" />
+    <Content Include="Report\rptPromo.aspx" />
+    <Content Include="Report\rptTargetSaleout.aspx" />
+    <Content Include="Report\xml\xmlDonHangTongTheoNgay.xml" />
+    <Content Include="Report\xml\xmlInBaoCaoTonKho.xml" />
+    <Content Include="Report\xml\xmlDonHangTongTheoNgay_NPP.xml" />
+    <Content Include="Report\xml\xmlPhieuNhapKho.xml" />
+    <Content Include="Report\xml\xmlPhieuXuatKho_mt.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Report\xml\xmlPhieuXuatKho.xml" />
+    <Content Include="Report\rpt-DanhSachKhachHang.aspx" />
+    <Content Include="Report\xml\xmlPhieuXuatKhoTong.xml" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\js\app.js" />
+    <Content Include="scripts\js\banner.js" />
+    <Content Include="scripts\js\bubble.js" />
+    <Content Include="scripts\js\builder.js" />
+    <Content Include="scripts\js\ccard.js" />
+    <Content Include="scripts\js\chosen_proto.js" />
+    <Content Include="scripts\js\control.js" />
+    <Content Include="scripts\js\cookie.js" />
+    <Content Include="scripts\js\dragdrop.js" />
+    <Content Include="scripts\js\effect.js" />
+    <Content Include="scripts\js\form.js" />
+    <Content Include="scripts\js\foundation.js" />
+    <Content Include="scripts\js\foundation_reveal.js" />
+    <Content Include="scripts\js\jquery.js" />
+    <Content Include="scripts\js\jquery_cookie.js" />
+    <Content Include="scripts\js\jquery_flexSlider_min.js" />
+    <Content Include="scripts\js\js.js" />
+    <Content Include="scripts\js\menu.js" />
+    <Content Include="scripts\js\prototype.js" />
+    <Content Include="scripts\js\simulate.js" />
+    <Content Include="scripts\js\slider.js" />
+    <Content Include="scripts\js\translate.js" />
+    <Content Include="scripts\js\validation.js" />
+    <Content Include="scripts\scripts.js" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="styles\base.css" />
+    <Content Include="styles\default.css" />
+    <Content Include="styles\grid.css" />
+    <Content Include="styles\vintage_bubble.css" />
+    <Content Include="styles\vintage_chosen.css" />
+    <Content Include="styles\vintage_cripes.css" />
+    <Content Include="styles\vintage_flexslides.css" />
+    <Content Include="styles\vintage_foundation.css" />
+    <Content Include="styles\vintage_main.css" />
+    <Content Include="styles\vintage_normalize.css" />
+    <Content Include="styles\vintage_prints.css" />
+    <Content Include="styles\vintage_wedgets.css" />
+    <Content Include="styles\listView.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article.cs" />
+    <Compile Include="change-password.aspx.cs">
+      <DependentUpon>change-password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="change-password.aspx.designer.cs">
+      <DependentUpon>change-password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CMS\cms-edit.aspx.cs">
+      <DependentUpon>cms-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMS\cms-edit.aspx.designer.cs">
+      <DependentUpon>cms-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="confirmation.aspx.cs">
+      <DependentUpon>confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="confirmation.aspx.designer.cs">
+      <DependentUpon>confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dataset_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\area-edit.ascx.cs">
+      <DependentUpon>area-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\area-edit.ascx.designer.cs">
+      <DependentUpon>area-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\area.aspx.cs">
+      <DependentUpon>area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\area.aspx.designer.cs">
+      <DependentUpon>area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\customer-channel-edit.ascx.cs">
+      <DependentUpon>customer-channel-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\customer-channel-edit.ascx.designer.cs">
+      <DependentUpon>customer-channel-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\customer-channel-list.aspx.cs">
+      <DependentUpon>customer-channel-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\customer-channel-list.aspx.designer.cs">
+      <DependentUpon>customer-channel-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import-mcp.aspx.cs">
+      <DependentUpon>import-mcp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import-mcp.aspx.designer.cs">
+      <DependentUpon>import-mcp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import_khachhang.aspx.cs">
+      <DependentUpon>import_khachhang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import_khachhang.aspx.designer.cs">
+      <DependentUpon>import_khachhang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import_rawdata.aspx.cs">
+      <DependentUpon>import_rawdata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Custom_Import\import_rawdata.aspx.designer.cs">
+      <DependentUpon>import_rawdata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Display\frm-DangKyTrungBay.aspx.cs">
+      <DependentUpon>frm-DangKyTrungBay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Display\frm-DangKyTrungBay.aspx.designer.cs">
+      <DependentUpon>frm-DangKyTrungBay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InterFace\furniture.aspx.cs">
+      <DependentUpon>furniture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\InterFace\furniture.aspx.designer.cs">
+      <DependentUpon>furniture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InterFace\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\InterFace\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InterFace\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\InterFace\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\inventory-unlock.aspx.cs">
+      <DependentUpon>inventory-unlock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\inventory-unlock.aspx.designer.cs">
+      <DependentUpon>inventory-unlock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\congnodauky-edit.aspx.cs">
+      <DependentUpon>congnodauky-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\congnodauky-edit.aspx.designer.cs">
+      <DependentUpon>congnodauky-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\debit-credit-edit.aspx.cs">
+      <DependentUpon>debit-credit-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\debit-credit-edit.aspx.designer.cs">
+      <DependentUpon>debit-credit-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\congnodauky-list.aspx.cs">
+      <DependentUpon>congnodauky-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\congnodauky-list.aspx.designer.cs">
+      <DependentUpon>congnodauky-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\debit-credit-list.aspx.cs">
+      <DependentUpon>debit-credit-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\debit-credit-list.aspx.designer.cs">
+      <DependentUpon>debit-credit-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-edit-2.aspx.cs">
+      <DependentUpon>payment-edit-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-edit-2.aspx.designer.cs">
+      <DependentUpon>payment-edit-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-edit.aspx.cs">
+      <DependentUpon>payment-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-edit.aspx.designer.cs">
+      <DependentUpon>payment-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-list.aspx.cs">
+      <DependentUpon>payment-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-list.aspx.designer.cs">
+      <DependentUpon>payment-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-row-edit.ascx.cs">
+      <DependentUpon>payment-row-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\payment-row-edit.ascx.designer.cs">
+      <DependentUpon>payment-row-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\TrackingCustomerDebt.aspx.cs">
+      <DependentUpon>TrackingCustomerDebt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\TrackingCustomerDebt.aspx.designer.cs">
+      <DependentUpon>TrackingCustomerDebt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\TrackingCustomerDebtReport.aspx.cs">
+      <DependentUpon>TrackingCustomerDebtReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\TrackingCustomerDebtReport.aspx.designer.cs">
+      <DependentUpon>TrackingCustomerDebtReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\price-group-edit.aspx.cs">
+      <DependentUpon>price-group-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\price-group-edit.aspx.designer.cs">
+      <DependentUpon>price-group-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\price-group-list.aspx.cs">
+      <DependentUpon>price-group-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\price-group-list.aspx.designer.cs">
+      <DependentUpon>price-group-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrintPreview-PhieuGiaoHang.aspx.cs">
+      <DependentUpon>PrintPreview-PhieuGiaoHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintPreview-PhieuGiaoHang.aspx.designer.cs">
+      <DependentUpon>PrintPreview-PhieuGiaoHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrintPreview.aspx.cs">
+      <DependentUpon>PrintPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintPreview.aspx.designer.cs">
+      <DependentUpon>PrintPreview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-discount.aspx.cs">
+      <DependentUpon>promo-discount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-discount.aspx.designer.cs">
+      <DependentUpon>promo-discount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\promo-item-combo.aspx.cs">
+      <DependentUpon>promo-item-combo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\promo-item-combo.aspx.designer.cs">
+      <DependentUpon>promo-item-combo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\promo-item.aspx.cs">
+      <DependentUpon>promo-item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\promo-item.aspx.designer.cs">
+      <DependentUpon>promo-item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-ontopdiscount-edit.ascx.cs">
+      <DependentUpon>promo-ontopdiscount-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-ontopdiscount-edit.ascx.designer.cs">
+      <DependentUpon>promo-ontopdiscount-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-ontopdiscount-list.aspx.cs">
+      <DependentUpon>promo-ontopdiscount-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-ontopdiscount-list.aspx.designer.cs">
+      <DependentUpon>promo-ontopdiscount-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-store.aspx.cs">
+      <DependentUpon>promo-store.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-store.aspx.designer.cs">
+      <DependentUpon>promo-store.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\promo-vol.aspx.cs">
+      <DependentUpon>promo-vol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\promo-vol.aspx.designer.cs">
+      <DependentUpon>promo-vol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-edit.aspx.cs">
+      <DependentUpon>promo-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-edit.aspx.designer.cs">
+      <DependentUpon>promo-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-rule-1.aspx.cs">
+      <DependentUpon>promo-rule-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-rule-1.aspx.designer.cs">
+      <DependentUpon>promo-rule-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\region-edit.ascx.cs">
+      <DependentUpon>region-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\region-edit.ascx.designer.cs">
+      <DependentUpon>region-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\region.aspx.cs">
+      <DependentUpon>region.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\region.aspx.designer.cs">
+      <DependentUpon>region.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\change-route.aspx.cs">
+      <DependentUpon>change-route.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\change-route.aspx.designer.cs">
+      <DependentUpon>change-route.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\HR-List.aspx.cs">
+      <DependentUpon>HR-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\HR-List.aspx.designer.cs">
+      <DependentUpon>HR-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-sub-edit.aspx.cs">
+      <DependentUpon>route-sub-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-sub-edit.aspx.designer.cs">
+      <DependentUpon>route-sub-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-sub-list.aspx.cs">
+      <DependentUpon>route-sub-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-sub-list.aspx.designer.cs">
+      <DependentUpon>route-sub-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-weekdays-list.aspx.cs">
+      <DependentUpon>route-weekdays-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-weekdays-list.aspx.designer.cs">
+      <DependentUpon>route-weekdays-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-weekydays-edit.ascx.cs">
+      <DependentUpon>route-weekydays-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-weekydays-edit.ascx.designer.cs">
+      <DependentUpon>route-weekydays-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-confirmed-list.aspx.cs">
+      <DependentUpon>saleout-confirmed-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-confirmed-list.aspx.designer.cs">
+      <DependentUpon>saleout-confirmed-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Admin\sys-account-store.aspx.cs">
+      <DependentUpon>sys-account-store.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\sys-account-store.aspx.designer.cs">
+      <DependentUpon>sys-account-store.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Admin\sys-user-price.aspx.cs">
+      <DependentUpon>sys-user-price.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\sys-user-price.aspx.designer.cs">
+      <DependentUpon>sys-user-price.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-3.aspx.cs">
+      <DependentUpon>saleout-edit-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-3.aspx.designer.cs">
+      <DependentUpon>saleout-edit-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-mt.aspx.cs">
+      <DependentUpon>saleout-edit-mt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-mt.aspx.designer.cs">
+      <DependentUpon>saleout-edit-mt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-return-edit.aspx.cs">
+      <DependentUpon>saleout-return-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-return-edit.aspx.designer.cs">
+      <DependentUpon>saleout-return-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-closingdays-extra.aspx.cs">
+      <DependentUpon>sys-closingdays-extra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-closingdays-extra.aspx.designer.cs">
+      <DependentUpon>sys-closingdays-extra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-closingdays.aspx.cs">
+      <DependentUpon>sys-closingdays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-closingdays.aspx.designer.cs">
+      <DependentUpon>sys-closingdays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-config-edit.ascx.cs">
+      <DependentUpon>sys-config-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-config-edit.ascx.designer.cs">
+      <DependentUpon>sys-config-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-config.aspx.cs">
+      <DependentUpon>sys-config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Sys\sys-config.aspx.designer.cs">
+      <DependentUpon>sys-config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\target-focus-item.aspx.cs">
+      <DependentUpon>target-focus-item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\target-focus-item.aspx.designer.cs">
+      <DependentUpon>target-focus-item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrungBay\trungbay-list.aspx.cs">
+      <DependentUpon>trungbay-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\TrungBay\trungbay-list.aspx.designer.cs">
+      <DependentUpon>trungbay-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucChotTonKho.ascx.cs">
+      <DependentUpon>ucChotTonKho.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ucChotTonKho.ascx.designer.cs">
+      <DependentUpon>ucChotTonKho.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ucThongBao.ascx.cs">
+      <DependentUpon>ucThongBao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ucThongBao.ascx.designer.cs">
+      <DependentUpon>ucThongBao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\user_region.aspx.cs">
+      <DependentUpon>user_region.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\user_region.aspx.designer.cs">
+      <DependentUpon>user_region.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeftMenu.Master.cs">
+      <DependentUpon>LeftMenu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeftMenu.Master.designer.cs">
+      <DependentUpon>LeftMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\clsPromotion_OnTop.cs" />
+    <Compile Include="MasterMenu.Master.cs">
+      <DependentUpon>MasterMenu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterMenu.Master.designer.cs">
+      <DependentUpon>MasterMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\Monitoring1.aspx.cs">
+      <DependentUpon>Monitoring1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\Monitoring1.aspx.designer.cs">
+      <DependentUpon>Monitoring1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ExportPivotExcel.aspx.cs">
+      <DependentUpon>ExportPivotExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\ExportPivotExcel.aspx.designer.cs">
+      <DependentUpon>ExportPivotExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx.cs">
+      <DependentUpon>rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoTonKhoTheoNgay2-GiaTri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTonKhoTheoNgay2.aspx.cs">
+      <DependentUpon>rpt-BaoCaoTonKhoTheoNgay2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTonKhoTheoNgay2.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoTonKhoTheoNgay2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-ChiTieuDoanhSoKhachHang.aspx.cs">
+      <DependentUpon>rpt-ChiTieuDoanhSoKhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-ChiTieuDoanhSoKhachHang.aspx.designer.cs">
+      <DependentUpon>rpt-ChiTieuDoanhSoKhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-ImportPhanBoCTKM.aspx.cs">
+      <DependentUpon>rpt-ImportPhanBoCTKM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-ImportPhanBoCTKM.aspx.designer.cs">
+      <DependentUpon>rpt-ImportPhanBoCTKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-ImportTuyenBanHang.aspx.cs">
+      <DependentUpon>rpt-ImportTuyenBanHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-ImportTuyenBanHang.aspx.designer.cs">
+      <DependentUpon>rpt-ImportTuyenBanHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-InDongHangTong.aspx.cs">
+      <DependentUpon>rpt-InDongHangTong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-InDongHangTong.aspx.designer.cs">
+      <DependentUpon>rpt-InDongHangTong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKhoTong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKhoTong.Designer.cs">
+      <DependentUpon>rptInPhieuXuatKhoTong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuGiaoHang_InLaser_mt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuGiaoHang_InLaser_mt.designer.cs">
+      <DependentUpon>rptPhieuGiaoHang_InLaser_mt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuGiaoHang_InLaser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuGiaoHang_InLaser.designer.cs">
+      <DependentUpon>rptPhieuGiaoHang_InLaser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InLaser_mt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InLaser_mt.Designer.cs">
+      <DependentUpon>rptPhieuXuatKho_InLaser_mt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoCongNo.aspx.cs">
+      <DependentUpon>rpt-BaoCaoCongNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoCongNo.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoCongNo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\UploadData.aspx.cs">
+      <DependentUpon>UploadData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\UploadData.aspx.designer.cs">
+      <DependentUpon>UploadData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\clsCommon.cs" />
+    <Compile Include="CMS\cms-list.aspx.cs">
+      <DependentUpon>cms-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMS\cms-list.aspx.designer.cs">
+      <DependentUpon>cms-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Category-Edit.ascx.cs">
+      <DependentUpon>Category-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Category-Edit.ascx.designer.cs">
+      <DependentUpon>Category-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Category-List.aspx.cs">
+      <DependentUpon>Category-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Category-List.aspx.designer.cs">
+      <DependentUpon>Category-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\customer-edit.aspx.cs">
+      <DependentUpon>customer-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\customer-edit.aspx.designer.cs">
+      <DependentUpon>customer-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\customer-list.aspx.cs">
+      <DependentUpon>customer-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\customer-list.aspx.designer.cs">
+      <DependentUpon>customer-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\Employee-Edit.ascx.cs">
+      <DependentUpon>Employee-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\Employee-Edit.ascx.designer.cs">
+      <DependentUpon>Employee-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\Employee-List.aspx.cs">
+      <DependentUpon>Employee-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\Employee-List.aspx.designer.cs">
+      <DependentUpon>Employee-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HangHoa-Edit.ascx.cs">
+      <DependentUpon>HangHoa-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\HangHoa-Edit.ascx.designer.cs">
+      <DependentUpon>HangHoa-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HangHoa-List.aspx.cs">
+      <DependentUpon>HangHoa-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\HangHoa-List.aspx.designer.cs">
+      <DependentUpon>HangHoa-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\inventory-closing-list.aspx.cs">
+      <DependentUpon>inventory-closing-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\inventory-closing-list.aspx.designer.cs">
+      <DependentUpon>inventory-closing-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\price-edit.ascx.cs">
+      <DependentUpon>price-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\price-edit.ascx.designer.cs">
+      <DependentUpon>price-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\price-list.aspx.cs">
+      <DependentUpon>price-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\price-list.aspx.designer.cs">
+      <DependentUpon>price-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\promo-edit.aspx.cs">
+      <DependentUpon>promo-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\promo-edit.aspx.designer.cs">
+      <DependentUpon>promo-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-list.aspx.cs">
+      <DependentUpon>promo-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-list.aspx.designer.cs">
+      <DependentUpon>promo-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-row-edit-chietkhau.ascx.cs">
+      <DependentUpon>promo-row-edit-chietkhau.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Promo\promo-row-edit-chietkhau.ascx.designer.cs">
+      <DependentUpon>promo-row-edit-chietkhau.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\promo-row-edit-tanghang.ascx.cs">
+      <DependentUpon>promo-row-edit-tanghang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\promo-row-edit-tanghang.ascx.designer.cs">
+      <DependentUpon>promo-row-edit-tanghang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Province-Edit.ascx.cs">
+      <DependentUpon>Province-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Province-Edit.ascx.designer.cs">
+      <DependentUpon>Province-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Province-List.aspx.cs">
+      <DependentUpon>Province-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Province-List.aspx.designer.cs">
+      <DependentUpon>Province-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-edit.aspx.cs">
+      <DependentUpon>route-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-edit.aspx.designer.cs">
+      <DependentUpon>route-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Route\route-list.aspx.cs">
+      <DependentUpon>route-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Route\route-list.aspx.designer.cs">
+      <DependentUpon>route-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-2.aspx.cs">
+      <DependentUpon>saleout-edit-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-edit-2.aspx.designer.cs">
+      <DependentUpon>saleout-edit-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-row-edit-2.ascx.cs">
+      <DependentUpon>saleout-row-edit-2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-row-edit-2.ascx.designer.cs">
+      <DependentUpon>saleout-row-edit-2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\target-saleout-edit.ascx.cs">
+      <DependentUpon>target-saleout-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\target-saleout-edit.ascx.designer.cs">
+      <DependentUpon>target-saleout-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\target-saleout-list.aspx.cs">
+      <DependentUpon>target-saleout-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\target-saleout-list.aspx.designer.cs">
+      <DependentUpon>target-saleout-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\target-sellin-edit.ascx.cs">
+      <DependentUpon>target-sellin-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\target-sellin-edit.ascx.designer.cs">
+      <DependentUpon>target-sellin-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\target-sellin-list.aspx.cs">
+      <DependentUpon>target-sellin-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\target-sellin-list.aspx.designer.cs">
+      <DependentUpon>target-sellin-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TonDauKy-Edit.ascx.cs">
+      <DependentUpon>TonDauKy-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\TonDauKy-Edit.ascx.designer.cs">
+      <DependentUpon>TonDauKy-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TonDauKy-List.aspx.cs">
+      <DependentUpon>TonDauKy-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\TonDauKy-List.aspx.designer.cs">
+      <DependentUpon>TonDauKy-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\clsCodeMaster.cs" />
+    <Compile Include="Libs\clsLog.cs" />
+    <Compile Include="Libs\clsProcessOrder.cs" />
+    <Compile Include="Libs\clsPromotion.cs" />
+    <Compile Include="Print\rpt_InPhieuNhap.aspx.cs">
+      <DependentUpon>rpt_InPhieuNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print\rpt_InPhieuNhap.aspx.designer.cs">
+      <DependentUpon>rpt_InPhieuNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print\rpt_InPhieuXuat.aspx.cs">
+      <DependentUpon>rpt_InPhieuXuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print\rpt_InPhieuXuat.aspx.designer.cs">
+      <DependentUpon>rpt_InPhieuXuat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoChietKhauKM.aspx.cs">
+      <DependentUpon>rpt-BaoCaoChietKhauKM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoChietKhauKM.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoChietKhauKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoDoanhSoTheoKhachHang.aspx.cs">
+      <DependentUpon>rpt-BaoCaoDoanhSoTheoKhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoDoanhSoTheoKhachHang.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoDoanhSoTheoKhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoKhachHangKhongMuaHang.aspx.cs">
+      <DependentUpon>rpt-BaoCaoKhachHangKhongMuaHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoKhachHangKhongMuaHang.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoKhachHangKhongMuaHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTongHopThuTien.aspx.cs">
+      <DependentUpon>rpt-BaoCaoTongHopThuTien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-BaoCaoTongHopThuTien.aspx.designer.cs">
+      <DependentUpon>rpt-BaoCaoTongHopThuTien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-CongNoQuaHan.aspx.cs">
+      <DependentUpon>rpt-CongNoQuaHan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-CongNoQuaHan.aspx.designer.cs">
+      <DependentUpon>rpt-CongNoQuaHan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-DoanhSoKhachHangVsChiTieu.aspx.cs">
+      <DependentUpon>rpt-DoanhSoKhachHangVsChiTieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-DoanhSoKhachHangVsChiTieu.aspx.designer.cs">
+      <DependentUpon>rpt-DoanhSoKhachHangVsChiTieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-DonHangTongTheoNPP.aspx.cs">
+      <DependentUpon>rpt-DonHangTongTheoNPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-DonHangTongTheoNPP.aspx.designer.cs">
+      <DependentUpon>rpt-DonHangTongTheoNPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-InBaoCaoTonKho.aspx.cs">
+      <DependentUpon>rpt-InBaoCaoTonKho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-InBaoCaoTonKho.aspx.designer.cs">
+      <DependentUpon>rpt-InBaoCaoTonKho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-InDonHangTong.aspx.cs">
+      <DependentUpon>rpt-InDonHangTong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-InDonHangTong.aspx.designer.cs">
+      <DependentUpon>rpt-InDonHangTong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-RawData.aspx.cs">
+      <DependentUpon>rpt-RawData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-RawData.aspx.designer.cs">
+      <DependentUpon>rpt-RawData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-sellin-mtd.aspx.cs">
+      <DependentUpon>rpt-sellin-mtd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-sellin-mtd.aspx.designer.cs">
+      <DependentUpon>rpt-sellin-mtd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptDailyReport.aspx.cs">
+      <DependentUpon>rptDailyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptDailyReport.aspx.designer.cs">
+      <DependentUpon>rptDailyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-DonHangTongTheoNhanVien.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-DonHangTongTheoNhanVien.Designer.cs">
+      <DependentUpon>rpt-DonHangTongTheoNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-DonHangTongTheoNPP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-DonHangTongTheoNPP.Designer.cs">
+      <DependentUpon>rpt-DonHangTongTheoNPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-PhieuXuatKho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rpt-PhieuXuatKho.Designer.cs">
+      <DependentUpon>rpt-PhieuXuatKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKho_2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKho_2.Designer.cs">
+      <DependentUpon>rptInPhieuXuatKho_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKho_All.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptInPhieuXuatKho_All.Designer.cs">
+      <DependentUpon>rptInPhieuXuatKho_All.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuInTonKho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuInTonKho.Designer.cs">
+      <DependentUpon>rptPhieuInTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InKim.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InKim.Designer.cs">
+      <DependentUpon>rptPhieuXuatKho_InKim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InLaser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFiles\rptPhieuXuatKho_InLaser.Designer.cs">
+      <DependentUpon>rptPhieuXuatKho_InLaser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptInventory-Daily.aspx.cs">
+      <DependentUpon>rptInventory-Daily.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptInventory-Daily.aspx.designer.cs">
+      <DependentUpon>rptInventory-Daily.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptInventory.aspx.cs">
+      <DependentUpon>rptInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptInventory.aspx.designer.cs">
+      <DependentUpon>rptInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-edit.aspx.cs">
+      <DependentUpon>saleout-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-edit.aspx.designer.cs">
+      <DependentUpon>saleout-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-list.aspx.cs">
+      <DependentUpon>saleout-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-list.aspx.designer.cs">
+      <DependentUpon>saleout-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\saleout-row-edit.ascx.cs">
+      <DependentUpon>saleout-row-edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\saleout-row-edit.ascx.designer.cs">
+      <DependentUpon>saleout-row-edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sellin-edit.aspx.cs">
+      <DependentUpon>sellin-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\sellin-edit.aspx.designer.cs">
+      <DependentUpon>sellin-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SellIn-List.aspx.cs">
+      <DependentUpon>SellIn-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\SellIn-List.aspx.designer.cs">
+      <DependentUpon>SellIn-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SellIn-Row-Edit.ascx.cs">
+      <DependentUpon>SellIn-Row-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\SellIn-Row-Edit.ascx.designer.cs">
+      <DependentUpon>SellIn-Row-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Store-Edit.ascx.cs">
+      <DependentUpon>Store-Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Store-Edit.ascx.designer.cs">
+      <DependentUpon>Store-Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Store-List.aspx.cs">
+      <DependentUpon>Store-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Store-List.aspx.designer.cs">
+      <DependentUpon>Store-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grid.aspx.cs">
+      <DependentUpon>Grid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grid.aspx.designer.cs">
+      <DependentUpon>Grid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Image.cs" />
+    <Compile Include="ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageNoMenu.Master.cs">
+      <DependentUpon>MasterPageNoMenu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPageNoMenu.Master.designer.cs">
+      <DependentUpon>MasterPageNoMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageSingleMenu.Master.cs">
+      <DependentUpon>MasterPageSingleMenu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPageSingleMenu.Master.designer.cs">
+      <DependentUpon>MasterPageSingleMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\rptKPI.aspx.cs">
+      <DependentUpon>rptKPI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptKPI.aspx.designer.cs">
+      <DependentUpon>rptKPI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPromo.aspx.cs">
+      <DependentUpon>rptPromo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptPromo.aspx.designer.cs">
+      <DependentUpon>rptPromo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptTargetSaleout.aspx.cs">
+      <DependentUpon>rptTargetSaleout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rptTargetSaleout.aspx.designer.cs">
+      <DependentUpon>rptTargetSaleout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt-DanhSachKhachHang.aspx.cs">
+      <DependentUpon>rpt-DanhSachKhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\rpt-DanhSachKhachHang.aspx.designer.cs">
+      <DependentUpon>rpt-DanhSachKhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="styles\style.css" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MasterPageNoMenu.Master" />
+    <Content Include="Lingting\Apose 2007.rar" />
+    <Content Include="packages.config" />
+    <Content Include="Report\Exports\Templates\Active_Category.xls" />
+    <Content Include="Report\Exports\Templates\Active_SD.xls" />
+    <Content Include="Report\Exports\Templates\Active_SKUs.xls" />
+    <Content Include="Report\Exports\Templates\Active_SubCategory.xls" />
+    <Content Include="Report\Exports\Templates\BaoCaoNhapXuatTon.xls" />
+    <Content Include="Report\Exports\Templates\BaoCaoNhapXuatTon.xlsx" />
+    <Content Include="Report\Exports\Templates\DisplayReport.xls" />
+    <Content Include="Report\Exports\Templates\EffectiveSales.xls" />
+    <Content Include="Report\Exports\Templates\EffectiveSales.xlsx" />
+    <Content Include="Report\Exports\Templates\KhachHang_Display.xls" />
+    <Content Include="Report\Exports\Templates\PrimarySales.xls" />
+    <Content Include="Report\Exports\Templates\PrimarySales.xlsx" />
+    <Content Include="Report\Exports\Templates\SecondarySales.xls" />
+    <Content Include="Report\Exports\Templates\SecondarySales.xlsx" />
+    <Content Include="Report\Exports\Templates\TemplateFile.xls" />
+    <Content Include="Report\Exports\Templates\UnpackReport.xls" />
+    <Content Include="Dataset_DATA.xsc">
+      <DependentUpon>Dataset_DATA.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dataset_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset_DATA.xss">
+      <DependentUpon>Dataset_DATA.xsd</DependentUpon>
+    </Content>
+    <Content Include="MasterMenu.Master" />
+    <Content Include="LeftMenu.Master" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Download\TemplateFiles\" />
+    <Folder Include="Forms\NewFolder1\" />
+    <Folder Include="Logs\Access\" />
+    <Folder Include="Logs\Audit\" />
+    <Folder Include="Logs\Sys\" />
+    <Folder Include="Reports\" />
+    <Folder Include="Report\Data\" />
+    <Folder Include="Report\Exports\Outputs\" />
+    <Folder Include="Report\Templates\" />
+    <Folder Include="SqlServerTypes\x64\" />
+    <Folder Include="SqlServerTypes\x86\" />
+    <Folder Include="Uploads\Files\" />
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MasterMenu.Master.resx" />
+    <Content Include="App_LocalResources\MasterMenu.Master.vi.resx" />
+    <Content Include="App_LocalResources\MasterMenu.Master.fr.resx" />
+    <Content Include="App_LocalResources\LeftMenu.Master.resx" />
+    <Content Include="App_LocalResources\LeftMenu.Master.vi.resx" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Report\rptFiles\rpt-DonHangTongTheoNhanVien.resx">
+      <DependentUpon>rpt-DonHangTongTheoNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rpt-DonHangTongTheoNPP.resx">
+      <DependentUpon>rpt-DonHangTongTheoNPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptInPhieuXuatKho_2.resx">
+      <DependentUpon>rptInPhieuXuatKho_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptInPhieuXuatKhoTong.resx">
+      <DependentUpon>rptInPhieuXuatKhoTong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptInPhieuXuatKho_All.resx">
+      <DependentUpon>rptInPhieuXuatKho_All.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptPhieuGiaoHang_InLaser_mt.resx">
+      <DependentUpon>rptPhieuGiaoHang_InLaser_mt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptPhieuGiaoHang_InLaser.resx">
+      <DependentUpon>rptPhieuGiaoHang_InLaser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptPhieuInTonKho.resx">
+      <DependentUpon>rptPhieuInTonKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptPhieuXuatKho_InLaser_mt.resx">
+      <DependentUpon>rptPhieuXuatKho_InLaser_mt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFiles\rptPhieuXuatKho_InLaser.resx">
+      <DependentUpon>rptPhieuXuatKho_InLaser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19656/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

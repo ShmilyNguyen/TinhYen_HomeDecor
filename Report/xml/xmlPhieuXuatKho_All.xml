@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="PhieuXuatKho" nillable="true" type="PhieuXuatKho" />
+	<xs:complexType name="PhieuXuatKho">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Stt" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldAddress" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldNgayXuatKho" type="xs:dateTime" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMST" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldSoChungTu" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldPhone" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldHoTenNhanVien" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldHoTenKhachHang" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldDiaChi" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMaHangHoa" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldTenHangHoa" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldDonViTinhXuat" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldDonGiaXuat" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldSoLuong" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldChietKhau" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldGTCK" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldThanhTien" type="xs:decimal" />
+			<xs:element minOccurs="0"  name="fldCK" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="fldOntopDiscount" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="fldTotalOntopDiscount" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldCTKMID" type="xs:string" />
+			
+		</xs:sequence>
+	</xs:complexType>
+	
+<xs:element name="PhieuXuatKho1" nillable="true" type="PhieuXuatKho1" />
+	<xs:complexType name="PhieuXuatKho1">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Stt" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldAddress" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldNgayXuatKho" type="xs:dateTime" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMST" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldSoChungTu" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldPhone" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldHoTenNhanVien" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldHoTenKhachHang" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldDiaChi" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldMaHangHoa" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldTenHangHoa" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="fldDonViTinhXuat" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldDonGiaXuat" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldSoLuong" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldChietKhau" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldGTCK" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldThanhTien" type="xs:decimal" />
+			<xs:element minOccurs="0"  name="fldCK" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="fldOntopDiscount" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="fldTotalOntopDiscount" type="xs:decimal" />
+			<xs:element minOccurs="1" maxOccurs="1" name="fldCTKMID" type="xs:string" />
+			
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+</xs:schema>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accessories.Text" xml:space="preserve">
+    <value>Accessories and Decor</value>
+  </data>
+  <data name="accessoriesWall.Text" xml:space="preserve">
+    <value>Accesories Wall </value>
+  </data>
+  <data name="baby.Text" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="babyFuniture.Text" xml:space="preserve">
+    <value>Funiture for Baby</value>
+  </data>
+  <data name="bath.Text" xml:space="preserve">
+    <value>Bath</value>
+  </data>
+  <data name="bathAccesories.Text" xml:space="preserve">
+    <value>Other Wooden Accesories</value>
+  </data>
+  <data name="bathOther.Text" xml:space="preserve">
+    <value>Bath Decorations</value>
+  </data>
+  <data name="bed.Text" xml:space="preserve">
+    <value>Beds</value>
+  </data>
+  <data name="bedOther.Text" xml:space="preserve">
+    <value>Other Wooden Accessories</value>
+  </data>
+  <data name="bedRoom.Text" xml:space="preserve">
+    <value>BedRoom</value>
+  </data>
+  <data name="bedShelf.Text" xml:space="preserve">
+    <value>Bed Shelfs</value>
+  </data>
+  <data name="cabinets.Text" xml:space="preserve">
+    <value>Consles &amp; Cabinets</value>
+  </data>
+  <data name="clock.Text" xml:space="preserve">
+    <value>Đồng hồ &amp; Lịch</value>
+  </data>
+  <data name="contact.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="curtain.Text" xml:space="preserve">
+    <value>Rèm cửa</value>
+  </data>
+  <data name="design.Text" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="diningChair.Text" xml:space="preserve">
+    <value>Chairs &amp; SideTables</value>
+  </data>
+  <data name="diningOther.Text" xml:space="preserve">
+    <value>Other Wooden Accessories</value>
+  </data>
+  <data name="diningRoom.Text" xml:space="preserve">
+    <value>DiningRoom</value>
+  </data>
+  <data name="diningShelf.Text" xml:space="preserve">
+    <value>Dining Shelfs</value>
+  </data>
+  <data name="filingCabinet.Text" xml:space="preserve">
+    <value>Filing Cabinets</value>
+  </data>
+  <data name="footCandle.Text" xml:space="preserve">
+    <value>Chân đèn cầy</value>
+  </data>
+  <data name="funiture.Text" xml:space="preserve">
+    <value>tieng pháp nè</value>
+  </data>
+  <data name="garden.Text" xml:space="preserve">
+    <value>Decorative garden</value>
+  </data>
+  <data name="giftRegistry.Text" xml:space="preserve">
+    <value>GiftRegestry</value>
+  </data>
+  <data name="kitchen.Text" xml:space="preserve">
+    <value>Kitchen</value>
+  </data>
+  <data name="kitchenAccessories.Text" xml:space="preserve">
+    <value>Kitchen Funiture Accesories </value>
+  </data>
+  <data name="kitchenOther.Text" xml:space="preserve">
+    <value>Other Wooden Accessories</value>
+  </data>
+  <data name="kitchenShelf.Text" xml:space="preserve">
+    <value>Kitchen Shelfs</value>
+  </data>
+  <data name="letter.Text" xml:space="preserve">
+    <value>Chữ gỗ</value>
+  </data>
+  <data name="light.Text" xml:space="preserve">
+    <value>Đèn trang trí</value>
+  </data>
+  <data name="liquor.Text" xml:space="preserve">
+    <value>Liquor Cabinet</value>
+  </data>
+  <data name="livingDecor.Text" xml:space="preserve">
+    <value>Living Room Decoration</value>
+  </data>
+  <data name="livingRoom.Text" xml:space="preserve">
+    <value>Living Room</value>
+  </data>
+  <data name="makeUp.Text" xml:space="preserve">
+    <value>MakeUp table</value>
+  </data>
+  <data name="myAccount.Text" xml:space="preserve">
+    <value>MyAccount</value>
+  </data>
+  <data name="officeChaid.Text" xml:space="preserve">
+    <value>Chairs &amp; Chaise</value>
+  </data>
+  <data name="offices.Text" xml:space="preserve">
+    <value>Offices</value>
+  </data>
+  <data name="otherDecor.Text" xml:space="preserve">
+    <value>Trang trí khác</value>
+  </data>
+  <data name="painting.Text" xml:space="preserve">
+    <value>Tranh &amp; Bảng gỗ</value>
+  </data>
+  <data name="pillow.Text" xml:space="preserve">
+    <value>Gối trang trí</value>
+  </data>
+  <data name="shoppingBag.Text" xml:space="preserve">
+    <value>ShoppingBag</value>
+  </data>
+  <data name="smartFuniture.Text" xml:space="preserve">
+    <value>Smart Funiture for Baby</value>
+  </data>
+  <data name="sofa.Text" xml:space="preserve">
+    <value>Sofa &amp; Sectionals</value>
+  </data>
+  <data name="store.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="table.Text" xml:space="preserve">
+    <value>Table &amp; Decorations</value>
+  </data>
+  <data name="tableMeeting.Text" xml:space="preserve">
+    <value>Tables Meeting</value>
+  </data>
+  <data name="tivi.Text" xml:space="preserve">
+    <value>Tivi Shelf</value>
+  </data>
+  <data name="wishList.Text" xml:space="preserve">
+    <value>WishList</value>
+  </data>
+  <data name="wreath.Text" xml:space="preserve">
+    <value>Vòng hoa trang trí</value>
+  </data>
+</root>
